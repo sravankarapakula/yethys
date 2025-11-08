@@ -1,0 +1,56 @@
+# ---- Python cache ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ---- Virtual Environment ----
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# ---- Environment & Config Files ----
+.env
+app.env
+*.env
+
+# ---- Logs ----
+*.log
+
+# ---- OS & Editor Files ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+__MACOSX/
+
+# ---- Archives / Temporary Files ----
+*.zip
+*.tar
+*.gz
+*.bak
+*.tmp
+
+# ---- Build / Distribution ----
+build/
+dist/
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# ---- Databases / Dumps ----
+*.db
+*.sqlite3
+*.sql
+
+# ---- Cache / Coverage ----
+.cache/
+*.coverage
+coverage.xml
+.pytest_cache/
+
+# ---- Miscellaneous ----
+*.ipynb_checkpoints/
