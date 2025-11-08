@@ -1,0 +1,551 @@
+2025-10-28 23:29:54,994 - INFO - ✅ Connected to database: startup_db
+2025-10-28 23:29:54,994 - INFO - Loading Sentence Transformer model (this may take a moment)...
+2025-10-28 23:29:55,036 - INFO - Use pytorch device_name: mps
+2025-10-28 23:29:55,036 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 23:30:00,170 - INFO - ✅ Model loaded successfully: all-MiniLM-L6-v2
+2025-10-28 23:30:00,173 - INFO -    - Embedding dimension: 384
+2025-10-28 23:30:00,173 - INFO -    - Max sequence length: 256 tokens
+2025-10-28 23:30:00,174 - INFO - 
+============================================================
+2025-10-28 23:30:00,174 - INFO - 🚀 YTHEYS EMBEDDING GENERATOR
+2025-10-28 23:30:00,174 - INFO - ============================================================
+2025-10-28 23:30:00,174 - INFO - Started at: 2025-10-28 23:30:00
+2025-10-28 23:30:00,174 - INFO - Database: startup_db
+2025-10-28 23:30:00,174 - INFO - Model: all-MiniLM-L6-v2
+2025-10-28 23:30:00,174 - INFO - ============================================================
+
+2025-10-28 23:30:00,174 - INFO - STEP 1: Detecting database schema...
+2025-10-28 23:30:00,328 - INFO - 
+📋 Detected 24 columns in 'organizations' table:
+2025-10-28 23:30:00,328 - INFO -    ID: id
+2025-10-28 23:30:00,328 - INFO -    Names: organization_name
+2025-10-28 23:30:00,328 - INFO -    Text fields: type, domain, description, goals, skills, tags
+2025-10-28 23:30:00,328 - INFO -    Other: email, website, country, city, founded_year, team_size, sdg_alignment, services, funding_stage, partners...
+2025-10-28 23:30:00,328 - INFO - 
+------------------------------------------------------------
+2025-10-28 23:30:00,328 - INFO - STEP 2: Preparing embedding column...
+2025-10-28 23:30:00,332 - INFO - ⚠️  embedding_vector column already exists
+2025-10-28 23:30:00,333 - INFO - 
+------------------------------------------------------------
+2025-10-28 23:30:00,333 - INFO - STEP 3: Generating embeddings...
+2025-10-28 23:30:00,333 - INFO - 
+📝 Using these columns for embeddings: organization_name, description, domain, type, skills, tags, goals, sdg_alignment, collaboration_needs
+2025-10-28 23:30:00,333 - INFO - 
+🔍 Query: SELECT id, organization_name, description, domain, type, skills, tags, goals, sdg_alignment, collaboration_needs FROM organizations
+2025-10-28 23:30:00,373 - INFO - 
+📊 Loaded 250 organizations from database
+2025-10-28 23:30:00,373 - INFO - 
+🔨 Building combined text from available fields...
+2025-10-28 23:30:00,383 - INFO - 
+📄 Sample combined text (first org):
+2025-10-28 23:30:00,383 - INFO -    AgriTech Labs 241 Providing advanced solutions in agritech for startups and corporates. AgriTech agency iot satellite_imagery data_analytics crop_monitoring True True True True Collaborate with corpor...
+2025-10-28 23:30:00,383 - INFO - 
+🚀 Generating embeddings for 250 organizations...
+2025-10-28 23:30:00,383 - INFO -    (This may take a few minutes...)
+2025-10-28 23:30:02,177 - INFO - ✅ Generated 250 embeddings
+2025-10-28 23:30:02,177 - INFO -    - Embedding shape: (384,)
+2025-10-28 23:30:02,177 - INFO - 
+💾 Storing embeddings in database...
+2025-10-28 23:30:02,183 - ERROR - Error saving embedding for org A2556: invalid literal for int() with base 10: 'A2556'
+2025-10-28 23:30:02,184 - ERROR - Error saving embedding for org A3147: invalid literal for int() with base 10: 'A3147'
+2025-10-28 23:30:02,184 - ERROR - Error saving embedding for org A5232: invalid literal for int() with base 10: 'A5232'
+2025-10-28 23:30:02,185 - ERROR - Error saving embedding for org A5469: invalid literal for int() with base 10: 'A5469'
+2025-10-28 23:30:02,185 - ERROR - Error saving embedding for org A8266: invalid literal for int() with base 10: 'A8266'
+2025-10-28 23:30:02,186 - ERROR - Error saving embedding for org A9182: invalid literal for int() with base 10: 'A9182'
+2025-10-28 23:30:02,186 - ERROR - Error saving embedding for org B1098: invalid literal for int() with base 10: 'B1098'
+2025-10-28 23:30:02,186 - ERROR - Error saving embedding for org B1193: invalid literal for int() with base 10: 'B1193'
+2025-10-28 23:30:02,187 - ERROR - Error saving embedding for org B1341: invalid literal for int() with base 10: 'B1341'
+2025-10-28 23:30:02,187 - ERROR - Error saving embedding for org B1640: invalid literal for int() with base 10: 'B1640'
+2025-10-28 23:30:02,188 - ERROR - Error saving embedding for org B1911: invalid literal for int() with base 10: 'B1911'
+2025-10-28 23:30:02,188 - ERROR - Error saving embedding for org B2669: invalid literal for int() with base 10: 'B2669'
+2025-10-28 23:30:02,188 - ERROR - Error saving embedding for org B3579: invalid literal for int() with base 10: 'B3579'
+2025-10-28 23:30:02,189 - ERROR - Error saving embedding for org B3746: invalid literal for int() with base 10: 'B3746'
+2025-10-28 23:30:02,189 - ERROR - Error saving embedding for org B4033: invalid literal for int() with base 10: 'B4033'
+2025-10-28 23:30:02,189 - ERROR - Error saving embedding for org B4995: invalid literal for int() with base 10: 'B4995'
+2025-10-28 23:30:02,189 - ERROR - Error saving embedding for org B5610: invalid literal for int() with base 10: 'B5610'
+2025-10-28 23:30:02,190 - ERROR - Error saving embedding for org B6928: invalid literal for int() with base 10: 'B6928'
+2025-10-28 23:30:02,190 - ERROR - Error saving embedding for org C1031: invalid literal for int() with base 10: 'C1031'
+2025-10-28 23:30:02,190 - ERROR - Error saving embedding for org C1479: invalid literal for int() with base 10: 'C1479'
+2025-10-28 23:30:02,191 - ERROR - Error saving embedding for org C1738: invalid literal for int() with base 10: 'C1738'
+2025-10-28 23:30:02,192 - ERROR - Error saving embedding for org C2484: invalid literal for int() with base 10: 'C2484'
+2025-10-28 23:30:02,192 - ERROR - Error saving embedding for org C4397: invalid literal for int() with base 10: 'C4397'
+2025-10-28 23:30:02,193 - ERROR - Error saving embedding for org C4565: invalid literal for int() with base 10: 'C4565'
+2025-10-28 23:30:02,193 - ERROR - Error saving embedding for org C5517: invalid literal for int() with base 10: 'C5517'
+2025-10-28 23:30:02,194 - ERROR - Error saving embedding for org C6027: invalid literal for int() with base 10: 'C6027'
+2025-10-28 23:30:02,195 - ERROR - Error saving embedding for org C8140: invalid literal for int() with base 10: 'C8140'
+2025-10-28 23:30:02,195 - ERROR - Error saving embedding for org C8839: invalid literal for int() with base 10: 'C8839'
+2025-10-28 23:30:02,195 - ERROR - Error saving embedding for org C9930: invalid literal for int() with base 10: 'C9930'
+2025-10-28 23:30:02,196 - ERROR - Error saving embedding for org D2017: invalid literal for int() with base 10: 'D2017'
+2025-10-28 23:30:02,196 - ERROR - Error saving embedding for org D6475: invalid literal for int() with base 10: 'D6475'
+2025-10-28 23:30:02,196 - ERROR - Error saving embedding for org D8244: invalid literal for int() with base 10: 'D8244'
+2025-10-28 23:30:02,197 - ERROR - Error saving embedding for org D8844: invalid literal for int() with base 10: 'D8844'
+2025-10-28 23:30:02,197 - ERROR - Error saving embedding for org D9387: invalid literal for int() with base 10: 'D9387'
+2025-10-28 23:30:02,197 - ERROR - Error saving embedding for org E1527: invalid literal for int() with base 10: 'E1527'
+2025-10-28 23:30:02,198 - ERROR - Error saving embedding for org E2965: invalid literal for int() with base 10: 'E2965'
+2025-10-28 23:30:02,198 - ERROR - Error saving embedding for org E3047: invalid literal for int() with base 10: 'E3047'
+2025-10-28 23:30:02,199 - ERROR - Error saving embedding for org E3621: invalid literal for int() with base 10: 'E3621'
+2025-10-28 23:30:02,199 - ERROR - Error saving embedding for org E4924: invalid literal for int() with base 10: 'E4924'
+2025-10-28 23:30:02,199 - ERROR - Error saving embedding for org E5914: invalid literal for int() with base 10: 'E5914'
+2025-10-28 23:30:02,200 - ERROR - Error saving embedding for org E6604: invalid literal for int() with base 10: 'E6604'
+2025-10-28 23:30:02,201 - ERROR - Error saving embedding for org F1120: invalid literal for int() with base 10: 'F1120'
+2025-10-28 23:30:02,203 - ERROR - Error saving embedding for org F2358: invalid literal for int() with base 10: 'F2358'
+2025-10-28 23:30:02,205 - ERROR - Error saving embedding for org F2731: invalid literal for int() with base 10: 'F2731'
+2025-10-28 23:30:02,205 - ERROR - Error saving embedding for org F3498: invalid literal for int() with base 10: 'F3498'
+2025-10-28 23:30:02,206 - ERROR - Error saving embedding for org F4273: invalid literal for int() with base 10: 'F4273'
+2025-10-28 23:30:02,210 - ERROR - Error saving embedding for org F5231: invalid literal for int() with base 10: 'F5231'
+2025-10-28 23:30:02,213 - ERROR - Error saving embedding for org F6184: invalid literal for int() with base 10: 'F6184'
+2025-10-28 23:30:02,214 - ERROR - Error saving embedding for org F6606: invalid literal for int() with base 10: 'F6606'
+2025-10-28 23:30:02,214 - ERROR - Error saving embedding for org F7006: invalid literal for int() with base 10: 'F7006'
+2025-10-28 23:30:02,214 - ERROR - Error saving embedding for org F7501: invalid literal for int() with base 10: 'F7501'
+2025-10-28 23:30:02,214 - ERROR - Error saving embedding for org F7632: invalid literal for int() with base 10: 'F7632'
+2025-10-28 23:30:02,214 - ERROR - Error saving embedding for org F7734: invalid literal for int() with base 10: 'F7734'
+2025-10-28 23:30:02,215 - ERROR - Error saving embedding for org F7777: invalid literal for int() with base 10: 'F7777'
+2025-10-28 23:30:02,215 - ERROR - Error saving embedding for org F9616: invalid literal for int() with base 10: 'F9616'
+2025-10-28 23:30:02,215 - ERROR - Error saving embedding for org F9787: invalid literal for int() with base 10: 'F9787'
+2025-10-28 23:30:02,215 - ERROR - Error saving embedding for org G2290: invalid literal for int() with base 10: 'G2290'
+2025-10-28 23:30:02,216 - ERROR - Error saving embedding for org G2979: invalid literal for int() with base 10: 'G2979'
+2025-10-28 23:30:02,216 - ERROR - Error saving embedding for org G3034: invalid literal for int() with base 10: 'G3034'
+2025-10-28 23:30:02,216 - ERROR - Error saving embedding for org G3420: invalid literal for int() with base 10: 'G3420'
+2025-10-28 23:30:02,216 - ERROR - Error saving embedding for org G4485: invalid literal for int() with base 10: 'G4485'
+2025-10-28 23:30:02,217 - ERROR - Error saving embedding for org G6621: invalid literal for int() with base 10: 'G6621'
+2025-10-28 23:30:02,217 - ERROR - Error saving embedding for org G7933: invalid literal for int() with base 10: 'G7933'
+2025-10-28 23:30:02,218 - ERROR - Error saving embedding for org G9235: invalid literal for int() with base 10: 'G9235'
+2025-10-28 23:30:02,218 - ERROR - Error saving embedding for org G9572: invalid literal for int() with base 10: 'G9572'
+2025-10-28 23:30:02,219 - ERROR - Error saving embedding for org H3742: invalid literal for int() with base 10: 'H3742'
+2025-10-28 23:30:02,219 - ERROR - Error saving embedding for org H5075: invalid literal for int() with base 10: 'H5075'
+2025-10-28 23:30:02,220 - ERROR - Error saving embedding for org H6305: invalid literal for int() with base 10: 'H6305'
+2025-10-28 23:30:02,220 - ERROR - Error saving embedding for org H6691: invalid literal for int() with base 10: 'H6691'
+2025-10-28 23:30:02,220 - ERROR - Error saving embedding for org H8829: invalid literal for int() with base 10: 'H8829'
+2025-10-28 23:30:02,220 - ERROR - Error saving embedding for org H9053: invalid literal for int() with base 10: 'H9053'
+2025-10-28 23:30:02,221 - ERROR - Error saving embedding for org H9919: invalid literal for int() with base 10: 'H9919'
+2025-10-28 23:30:02,221 - ERROR - Error saving embedding for org I1565: invalid literal for int() with base 10: 'I1565'
+2025-10-28 23:30:02,221 - ERROR - Error saving embedding for org I2137: invalid literal for int() with base 10: 'I2137'
+2025-10-28 23:30:02,221 - ERROR - Error saving embedding for org I2598: invalid literal for int() with base 10: 'I2598'
+2025-10-28 23:30:02,222 - ERROR - Error saving embedding for org I3370: invalid literal for int() with base 10: 'I3370'
+2025-10-28 23:30:02,222 - ERROR - Error saving embedding for org I3477: invalid literal for int() with base 10: 'I3477'
+2025-10-28 23:30:02,222 - ERROR - Error saving embedding for org I3571: invalid literal for int() with base 10: 'I3571'
+2025-10-28 23:30:02,222 - ERROR - Error saving embedding for org I3670: invalid literal for int() with base 10: 'I3670'
+2025-10-28 23:30:02,222 - ERROR - Error saving embedding for org I5163: invalid literal for int() with base 10: 'I5163'
+2025-10-28 23:30:02,223 - ERROR - Error saving embedding for org I5228: invalid literal for int() with base 10: 'I5228'
+2025-10-28 23:30:02,223 - ERROR - Error saving embedding for org I5457: invalid literal for int() with base 10: 'I5457'
+2025-10-28 23:30:02,223 - ERROR - Error saving embedding for org I6190: invalid literal for int() with base 10: 'I6190'
+2025-10-28 23:30:02,223 - ERROR - Error saving embedding for org I7274: invalid literal for int() with base 10: 'I7274'
+2025-10-28 23:30:02,223 - ERROR - Error saving embedding for org I9568: invalid literal for int() with base 10: 'I9568'
+2025-10-28 23:30:02,224 - ERROR - Error saving embedding for org J1600: invalid literal for int() with base 10: 'J1600'
+2025-10-28 23:30:02,224 - ERROR - Error saving embedding for org J3600: invalid literal for int() with base 10: 'J3600'
+2025-10-28 23:30:02,224 - ERROR - Error saving embedding for org J4930: invalid literal for int() with base 10: 'J4930'
+2025-10-28 23:30:02,225 - ERROR - Error saving embedding for org J5811: invalid literal for int() with base 10: 'J5811'
+2025-10-28 23:30:02,225 - ERROR - Error saving embedding for org J6049: invalid literal for int() with base 10: 'J6049'
+2025-10-28 23:30:02,225 - ERROR - Error saving embedding for org J6090: invalid literal for int() with base 10: 'J6090'
+2025-10-28 23:30:02,225 - ERROR - Error saving embedding for org J6666: invalid literal for int() with base 10: 'J6666'
+2025-10-28 23:30:02,226 - ERROR - Error saving embedding for org J6669: invalid literal for int() with base 10: 'J6669'
+2025-10-28 23:30:02,226 - ERROR - Error saving embedding for org J8298: invalid literal for int() with base 10: 'J8298'
+2025-10-28 23:30:02,226 - ERROR - Error saving embedding for org J9036: invalid literal for int() with base 10: 'J9036'
+2025-10-28 23:30:02,226 - ERROR - Error saving embedding for org K1489: invalid literal for int() with base 10: 'K1489'
+2025-10-28 23:30:02,227 - ERROR - Error saving embedding for org K2205: invalid literal for int() with base 10: 'K2205'
+2025-10-28 23:30:02,227 - ERROR - Error saving embedding for org K2593: invalid literal for int() with base 10: 'K2593'
+2025-10-28 23:30:02,227 - ERROR - Error saving embedding for org K2608: invalid literal for int() with base 10: 'K2608'
+2025-10-28 23:30:02,227 - ERROR - Error saving embedding for org K6184: invalid literal for int() with base 10: 'K6184'
+2025-10-28 23:30:02,227 - ERROR - Error saving embedding for org K7648: invalid literal for int() with base 10: 'K7648'
+2025-10-28 23:30:02,228 - ERROR - Error saving embedding for org K8757: invalid literal for int() with base 10: 'K8757'
+2025-10-28 23:30:02,228 - ERROR - Error saving embedding for org L1525: invalid literal for int() with base 10: 'L1525'
+2025-10-28 23:30:02,228 - ERROR - Error saving embedding for org L3583: invalid literal for int() with base 10: 'L3583'
+2025-10-28 23:30:02,228 - ERROR - Error saving embedding for org L4121: invalid literal for int() with base 10: 'L4121'
+2025-10-28 23:30:02,228 - ERROR - Error saving embedding for org L4792: invalid literal for int() with base 10: 'L4792'
+2025-10-28 23:30:02,229 - ERROR - Error saving embedding for org L7584: invalid literal for int() with base 10: 'L7584'
+2025-10-28 23:30:02,229 - ERROR - Error saving embedding for org L7820: invalid literal for int() with base 10: 'L7820'
+2025-10-28 23:30:02,229 - ERROR - Error saving embedding for org M1383: invalid literal for int() with base 10: 'M1383'
+2025-10-28 23:30:02,230 - ERROR - Error saving embedding for org M4355: invalid literal for int() with base 10: 'M4355'
+2025-10-28 23:30:02,230 - ERROR - Error saving embedding for org M5303: invalid literal for int() with base 10: 'M5303'
+2025-10-28 23:30:02,230 - ERROR - Error saving embedding for org M6807: invalid literal for int() with base 10: 'M6807'
+2025-10-28 23:30:02,230 - ERROR - Error saving embedding for org M7453: invalid literal for int() with base 10: 'M7453'
+2025-10-28 23:30:02,231 - ERROR - Error saving embedding for org M8460: invalid literal for int() with base 10: 'M8460'
+2025-10-28 23:30:02,231 - ERROR - Error saving embedding for org M8982: invalid literal for int() with base 10: 'M8982'
+2025-10-28 23:30:02,231 - ERROR - Error saving embedding for org M9128: invalid literal for int() with base 10: 'M9128'
+2025-10-28 23:30:02,232 - ERROR - Error saving embedding for org M9889: invalid literal for int() with base 10: 'M9889'
+2025-10-28 23:30:02,232 - ERROR - Error saving embedding for org N1180: invalid literal for int() with base 10: 'N1180'
+2025-10-28 23:30:02,232 - ERROR - Error saving embedding for org N2788: invalid literal for int() with base 10: 'N2788'
+2025-10-28 23:30:02,232 - ERROR - Error saving embedding for org N3054: invalid literal for int() with base 10: 'N3054'
+2025-10-28 23:30:02,233 - ERROR - Error saving embedding for org N3106: invalid literal for int() with base 10: 'N3106'
+2025-10-28 23:30:02,233 - ERROR - Error saving embedding for org N4497: invalid literal for int() with base 10: 'N4497'
+2025-10-28 23:30:02,233 - ERROR - Error saving embedding for org N4777: invalid literal for int() with base 10: 'N4777'
+2025-10-28 23:30:02,233 - ERROR - Error saving embedding for org N5284: invalid literal for int() with base 10: 'N5284'
+2025-10-28 23:30:02,234 - ERROR - Error saving embedding for org N6854: invalid literal for int() with base 10: 'N6854'
+2025-10-28 23:30:02,234 - ERROR - Error saving embedding for org O3753: invalid literal for int() with base 10: 'O3753'
+2025-10-28 23:30:02,234 - ERROR - Error saving embedding for org O4327: invalid literal for int() with base 10: 'O4327'
+2025-10-28 23:30:02,235 - ERROR - Error saving embedding for org O4333: invalid literal for int() with base 10: 'O4333'
+2025-10-28 23:30:02,235 - ERROR - Error saving embedding for org O6309: invalid literal for int() with base 10: 'O6309'
+2025-10-28 23:30:02,235 - ERROR - Error saving embedding for org O6353: invalid literal for int() with base 10: 'O6353'
+2025-10-28 23:30:02,235 - ERROR - Error saving embedding for org O6994: invalid literal for int() with base 10: 'O6994'
+2025-10-28 23:30:02,235 - ERROR - Error saving embedding for org O7156: invalid literal for int() with base 10: 'O7156'
+2025-10-28 23:30:02,236 - ERROR - Error saving embedding for org O7215: invalid literal for int() with base 10: 'O7215'
+2025-10-28 23:30:02,236 - ERROR - Error saving embedding for org O7577: invalid literal for int() with base 10: 'O7577'
+2025-10-28 23:30:02,236 - ERROR - Error saving embedding for org P1357: invalid literal for int() with base 10: 'P1357'
+2025-10-28 23:30:02,236 - ERROR - Error saving embedding for org P1622: invalid literal for int() with base 10: 'P1622'
+2025-10-28 23:30:02,237 - ERROR - Error saving embedding for org P2241: invalid literal for int() with base 10: 'P2241'
+2025-10-28 23:30:02,237 - ERROR - Error saving embedding for org P2671: invalid literal for int() with base 10: 'P2671'
+2025-10-28 23:30:02,237 - ERROR - Error saving embedding for org P3355: invalid literal for int() with base 10: 'P3355'
+2025-10-28 23:30:02,237 - ERROR - Error saving embedding for org P4364: invalid literal for int() with base 10: 'P4364'
+2025-10-28 23:30:02,237 - ERROR - Error saving embedding for org P4813: invalid literal for int() with base 10: 'P4813'
+2025-10-28 23:30:02,238 - ERROR - Error saving embedding for org P5425: invalid literal for int() with base 10: 'P5425'
+2025-10-28 23:30:02,238 - ERROR - Error saving embedding for org P5676: invalid literal for int() with base 10: 'P5676'
+2025-10-28 23:30:02,238 - ERROR - Error saving embedding for org P6477: invalid literal for int() with base 10: 'P6477'
+2025-10-28 23:30:02,238 - ERROR - Error saving embedding for org P6606: invalid literal for int() with base 10: 'P6606'
+2025-10-28 23:30:02,239 - ERROR - Error saving embedding for org P7422: invalid literal for int() with base 10: 'P7422'
+2025-10-28 23:30:02,239 - ERROR - Error saving embedding for org P7923: invalid literal for int() with base 10: 'P7923'
+2025-10-28 23:30:02,239 - ERROR - Error saving embedding for org P8251: invalid literal for int() with base 10: 'P8251'
+2025-10-28 23:30:02,240 - ERROR - Error saving embedding for org P8695: invalid literal for int() with base 10: 'P8695'
+2025-10-28 23:30:02,241 - ERROR - Error saving embedding for org Q2128: invalid literal for int() with base 10: 'Q2128'
+2025-10-28 23:30:02,241 - ERROR - Error saving embedding for org Q3662: invalid literal for int() with base 10: 'Q3662'
+2025-10-28 23:30:02,241 - ERROR - Error saving embedding for org Q5818: invalid literal for int() with base 10: 'Q5818'
+2025-10-28 23:30:02,241 - ERROR - Error saving embedding for org Q6496: invalid literal for int() with base 10: 'Q6496'
+2025-10-28 23:30:02,242 - ERROR - Error saving embedding for org Q6982: invalid literal for int() with base 10: 'Q6982'
+2025-10-28 23:30:02,242 - ERROR - Error saving embedding for org Q8753: invalid literal for int() with base 10: 'Q8753'
+2025-10-28 23:30:02,242 - ERROR - Error saving embedding for org Q9097: invalid literal for int() with base 10: 'Q9097'
+2025-10-28 23:30:02,242 - ERROR - Error saving embedding for org R1659: invalid literal for int() with base 10: 'R1659'
+2025-10-28 23:30:02,243 - ERROR - Error saving embedding for org R2621: invalid literal for int() with base 10: 'R2621'
+2025-10-28 23:30:02,243 - ERROR - Error saving embedding for org R2792: invalid literal for int() with base 10: 'R2792'
+2025-10-28 23:30:02,243 - ERROR - Error saving embedding for org R5054: invalid literal for int() with base 10: 'R5054'
+2025-10-28 23:30:02,243 - ERROR - Error saving embedding for org R5566: invalid literal for int() with base 10: 'R5566'
+2025-10-28 23:30:02,244 - ERROR - Error saving embedding for org R6513: invalid literal for int() with base 10: 'R6513'
+2025-10-28 23:30:02,244 - ERROR - Error saving embedding for org R9534: invalid literal for int() with base 10: 'R9534'
+2025-10-28 23:30:02,244 - ERROR - Error saving embedding for org S2143: invalid literal for int() with base 10: 'S2143'
+2025-10-28 23:30:02,244 - ERROR - Error saving embedding for org S2288: invalid literal for int() with base 10: 'S2288'
+2025-10-28 23:30:02,245 - ERROR - Error saving embedding for org S3349: invalid literal for int() with base 10: 'S3349'
+2025-10-28 23:30:02,245 - ERROR - Error saving embedding for org S3560: invalid literal for int() with base 10: 'S3560'
+2025-10-28 23:30:02,245 - ERROR - Error saving embedding for org S4045: invalid literal for int() with base 10: 'S4045'
+2025-10-28 23:30:02,245 - ERROR - Error saving embedding for org S4457: invalid literal for int() with base 10: 'S4457'
+2025-10-28 23:30:02,246 - ERROR - Error saving embedding for org S4525: invalid literal for int() with base 10: 'S4525'
+2025-10-28 23:30:02,246 - ERROR - Error saving embedding for org S5228: invalid literal for int() with base 10: 'S5228'
+2025-10-28 23:30:02,246 - ERROR - Error saving embedding for org S5754: invalid literal for int() with base 10: 'S5754'
+2025-10-28 23:30:02,246 - ERROR - Error saving embedding for org S6831: invalid literal for int() with base 10: 'S6831'
+2025-10-28 23:30:02,247 - ERROR - Error saving embedding for org S8554: invalid literal for int() with base 10: 'S8554'
+2025-10-28 23:30:02,247 - ERROR - Error saving embedding for org S9382: invalid literal for int() with base 10: 'S9382'
+2025-10-28 23:30:02,247 - ERROR - Error saving embedding for org T1808: invalid literal for int() with base 10: 'T1808'
+2025-10-28 23:30:02,247 - ERROR - Error saving embedding for org T3221: invalid literal for int() with base 10: 'T3221'
+2025-10-28 23:30:02,248 - ERROR - Error saving embedding for org T4161: invalid literal for int() with base 10: 'T4161'
+2025-10-28 23:30:02,248 - ERROR - Error saving embedding for org T7215: invalid literal for int() with base 10: 'T7215'
+2025-10-28 23:30:02,248 - ERROR - Error saving embedding for org T8457: invalid literal for int() with base 10: 'T8457'
+2025-10-28 23:30:02,248 - ERROR - Error saving embedding for org T8939: invalid literal for int() with base 10: 'T8939'
+2025-10-28 23:30:02,248 - ERROR - Error saving embedding for org T9851: invalid literal for int() with base 10: 'T9851'
+2025-10-28 23:30:02,249 - ERROR - Error saving embedding for org U1359: invalid literal for int() with base 10: 'U1359'
+2025-10-28 23:30:02,249 - ERROR - Error saving embedding for org U2068: invalid literal for int() with base 10: 'U2068'
+2025-10-28 23:30:02,249 - ERROR - Error saving embedding for org U2560: invalid literal for int() with base 10: 'U2560'
+2025-10-28 23:30:02,250 - ERROR - Error saving embedding for org U3105: invalid literal for int() with base 10: 'U3105'
+2025-10-28 23:30:02,250 - ERROR - Error saving embedding for org U3536: invalid literal for int() with base 10: 'U3536'
+2025-10-28 23:30:02,251 - ERROR - Error saving embedding for org U5357: invalid literal for int() with base 10: 'U5357'
+2025-10-28 23:30:02,251 - ERROR - Error saving embedding for org U6327: invalid literal for int() with base 10: 'U6327'
+2025-10-28 23:30:02,251 - ERROR - Error saving embedding for org U6475: invalid literal for int() with base 10: 'U6475'
+2025-10-28 23:30:02,252 - ERROR - Error saving embedding for org U7435: invalid literal for int() with base 10: 'U7435'
+2025-10-28 23:30:02,252 - ERROR - Error saving embedding for org U8798: invalid literal for int() with base 10: 'U8798'
+2025-10-28 23:30:02,252 - ERROR - Error saving embedding for org U8829: invalid literal for int() with base 10: 'U8829'
+2025-10-28 23:30:02,252 - ERROR - Error saving embedding for org U9941: invalid literal for int() with base 10: 'U9941'
+2025-10-28 23:30:02,253 - ERROR - Error saving embedding for org V1339: invalid literal for int() with base 10: 'V1339'
+2025-10-28 23:30:02,253 - ERROR - Error saving embedding for org V2571: invalid literal for int() with base 10: 'V2571'
+2025-10-28 23:30:02,253 - ERROR - Error saving embedding for org V4519: invalid literal for int() with base 10: 'V4519'
+2025-10-28 23:30:02,253 - ERROR - Error saving embedding for org V5365: invalid literal for int() with base 10: 'V5365'
+2025-10-28 23:30:02,253 - ERROR - Error saving embedding for org V5719: invalid literal for int() with base 10: 'V5719'
+2025-10-28 23:30:02,254 - ERROR - Error saving embedding for org V6181: invalid literal for int() with base 10: 'V6181'
+2025-10-28 23:30:02,254 - ERROR - Error saving embedding for org V7213: invalid literal for int() with base 10: 'V7213'
+2025-10-28 23:30:02,254 - ERROR - Error saving embedding for org V8061: invalid literal for int() with base 10: 'V8061'
+2025-10-28 23:30:02,254 - ERROR - Error saving embedding for org V8381: invalid literal for int() with base 10: 'V8381'
+2025-10-28 23:30:02,255 - ERROR - Error saving embedding for org V9573: invalid literal for int() with base 10: 'V9573'
+2025-10-28 23:30:02,255 - ERROR - Error saving embedding for org V9951: invalid literal for int() with base 10: 'V9951'
+2025-10-28 23:30:02,255 - ERROR - Error saving embedding for org W1320: invalid literal for int() with base 10: 'W1320'
+2025-10-28 23:30:02,255 - ERROR - Error saving embedding for org W2299: invalid literal for int() with base 10: 'W2299'
+2025-10-28 23:30:02,256 - ERROR - Error saving embedding for org W4461: invalid literal for int() with base 10: 'W4461'
+2025-10-28 23:30:02,256 - ERROR - Error saving embedding for org W4501: invalid literal for int() with base 10: 'W4501'
+2025-10-28 23:30:02,256 - ERROR - Error saving embedding for org W4911: invalid literal for int() with base 10: 'W4911'
+2025-10-28 23:30:02,256 - ERROR - Error saving embedding for org W5148: invalid literal for int() with base 10: 'W5148'
+2025-10-28 23:30:02,256 - ERROR - Error saving embedding for org W5740: invalid literal for int() with base 10: 'W5740'
+2025-10-28 23:30:02,257 - ERROR - Error saving embedding for org W6763: invalid literal for int() with base 10: 'W6763'
+2025-10-28 23:30:02,257 - ERROR - Error saving embedding for org W9019: invalid literal for int() with base 10: 'W9019'
+2025-10-28 23:30:02,257 - ERROR - Error saving embedding for org W9712: invalid literal for int() with base 10: 'W9712'
+2025-10-28 23:30:02,257 - ERROR - Error saving embedding for org W9739: invalid literal for int() with base 10: 'W9739'
+2025-10-28 23:30:02,257 - ERROR - Error saving embedding for org X1827: invalid literal for int() with base 10: 'X1827'
+2025-10-28 23:30:02,258 - ERROR - Error saving embedding for org X2259: invalid literal for int() with base 10: 'X2259'
+2025-10-28 23:30:02,258 - ERROR - Error saving embedding for org X3602: invalid literal for int() with base 10: 'X3602'
+2025-10-28 23:30:02,258 - ERROR - Error saving embedding for org X4816: invalid literal for int() with base 10: 'X4816'
+2025-10-28 23:30:02,258 - ERROR - Error saving embedding for org X5177: invalid literal for int() with base 10: 'X5177'
+2025-10-28 23:30:02,259 - ERROR - Error saving embedding for org X5565: invalid literal for int() with base 10: 'X5565'
+2025-10-28 23:30:02,259 - ERROR - Error saving embedding for org X5606: invalid literal for int() with base 10: 'X5606'
+2025-10-28 23:30:02,259 - ERROR - Error saving embedding for org X5966: invalid literal for int() with base 10: 'X5966'
+2025-10-28 23:30:02,259 - ERROR - Error saving embedding for org X6129: invalid literal for int() with base 10: 'X6129'
+2025-10-28 23:30:02,259 - ERROR - Error saving embedding for org X6196: invalid literal for int() with base 10: 'X6196'
+2025-10-28 23:30:02,260 - ERROR - Error saving embedding for org X6564: invalid literal for int() with base 10: 'X6564'
+2025-10-28 23:30:02,260 - ERROR - Error saving embedding for org X7059: invalid literal for int() with base 10: 'X7059'
+2025-10-28 23:30:02,260 - ERROR - Error saving embedding for org X7224: invalid literal for int() with base 10: 'X7224'
+2025-10-28 23:30:02,260 - ERROR - Error saving embedding for org X8674: invalid literal for int() with base 10: 'X8674'
+2025-10-28 23:30:02,261 - ERROR - Error saving embedding for org X8752: invalid literal for int() with base 10: 'X8752'
+2025-10-28 23:30:02,261 - ERROR - Error saving embedding for org X8956: invalid literal for int() with base 10: 'X8956'
+2025-10-28 23:30:02,261 - ERROR - Error saving embedding for org X9998: invalid literal for int() with base 10: 'X9998'
+2025-10-28 23:30:02,261 - ERROR - Error saving embedding for org Y1348: invalid literal for int() with base 10: 'Y1348'
+2025-10-28 23:30:02,262 - ERROR - Error saving embedding for org Y1439: invalid literal for int() with base 10: 'Y1439'
+2025-10-28 23:30:02,262 - ERROR - Error saving embedding for org Y3805: invalid literal for int() with base 10: 'Y3805'
+2025-10-28 23:30:02,263 - ERROR - Error saving embedding for org Y6172: invalid literal for int() with base 10: 'Y6172'
+2025-10-28 23:30:02,263 - ERROR - Error saving embedding for org Y7213: invalid literal for int() with base 10: 'Y7213'
+2025-10-28 23:30:02,264 - ERROR - Error saving embedding for org Y7595: invalid literal for int() with base 10: 'Y7595'
+2025-10-28 23:30:02,264 - ERROR - Error saving embedding for org Y8245: invalid literal for int() with base 10: 'Y8245'
+2025-10-28 23:30:02,264 - ERROR - Error saving embedding for org Z1065: invalid literal for int() with base 10: 'Z1065'
+2025-10-28 23:30:02,265 - ERROR - Error saving embedding for org Z1753: invalid literal for int() with base 10: 'Z1753'
+2025-10-28 23:30:02,265 - ERROR - Error saving embedding for org Z2913: invalid literal for int() with base 10: 'Z2913'
+2025-10-28 23:30:02,265 - ERROR - Error saving embedding for org Z3343: invalid literal for int() with base 10: 'Z3343'
+2025-10-28 23:30:02,265 - ERROR - Error saving embedding for org Z4213: invalid literal for int() with base 10: 'Z4213'
+2025-10-28 23:30:02,266 - ERROR - Error saving embedding for org Z4491: invalid literal for int() with base 10: 'Z4491'
+2025-10-28 23:30:02,266 - ERROR - Error saving embedding for org Z5389: invalid literal for int() with base 10: 'Z5389'
+2025-10-28 23:30:02,266 - ERROR - Error saving embedding for org Z7430: invalid literal for int() with base 10: 'Z7430'
+2025-10-28 23:30:02,266 - ERROR - Error saving embedding for org Z9894: invalid literal for int() with base 10: 'Z9894'
+2025-10-28 23:30:02,267 - ERROR - Error saving embedding for org Z9912: invalid literal for int() with base 10: 'Z9912'
+2025-10-28 23:30:02,268 - INFO - 
+✅ Embeddings saved successfully!
+2025-10-28 23:30:02,268 - INFO -    - Success: 0
+2025-10-28 23:30:02,268 - WARNING -    - Errors: 250
+2025-10-28 23:30:02,269 - INFO - 
+------------------------------------------------------------
+2025-10-28 23:30:02,269 - INFO - STEP 4: Verifying embeddings...
+2025-10-28 23:30:02,303 - INFO - 
+============================================================
+2025-10-28 23:30:02,303 - INFO - 📈 EMBEDDING STATISTICS
+2025-10-28 23:30:02,303 - INFO - ============================================================
+2025-10-28 23:30:02,303 - INFO -    Total organizations:      250
+2025-10-28 23:30:02,303 - INFO -    With embeddings:          250
+2025-10-28 23:30:02,303 - INFO -    Without embeddings:       0
+2025-10-28 23:30:02,303 - INFO -    Coverage:                 100.0%
+2025-10-28 23:30:02,303 - INFO - ============================================================
+2025-10-28 23:30:02,303 - INFO - ✅ All organizations have embeddings!
+2025-10-28 23:30:02,304 - INFO - 
+------------------------------------------------------------
+2025-10-28 23:30:02,304 - INFO - STEP 5: Testing embedding quality...
+2025-10-28 23:30:02,304 - INFO - 
+🧪 Testing embedding quality...
+2025-10-28 23:30:02,305 - INFO -    Sample organization: AgriTech Labs 241 (ID: A2556)
+2025-10-28 23:30:02,305 - INFO -    Embedding length: 384
+2025-10-28 23:30:02,305 - INFO -    Embedding type: <class 'list'>
+2025-10-28 23:30:02,305 - INFO -    First 5 values: [-0.04284597560763359, -0.053956277668476105, 0.006109496112912893, -0.009554791264235973, 0.09585351496934891]
+2025-10-28 23:30:02,305 - INFO - ✅ Embedding dimension correct (384)
+2025-10-28 23:30:02,305 - INFO - 
+   Testing similarity with query: 'technology startup'
+2025-10-28 23:30:03,325 - INFO -    Similarity score: 0.3980
+2025-10-28 23:30:03,325 - INFO - ✅ Embedding quality test passed!
+2025-10-28 23:30:03,325 - INFO - 
+============================================================
+2025-10-28 23:30:03,325 - INFO - ✅ EMBEDDING GENERATION COMPLETE!
+2025-10-28 23:30:03,325 - INFO - ============================================================
+2025-10-28 23:30:03,325 - INFO - Started:  2025-10-28 23:30:00
+2025-10-28 23:30:03,325 - INFO - Finished: 2025-10-28 23:30:03
+2025-10-28 23:30:03,326 - INFO - Duration: 3.15 seconds (0.05 minutes)
+2025-10-28 23:30:03,326 - INFO - ============================================================
+2025-10-28 23:30:03,326 - INFO - 
+💡 Next Steps:
+2025-10-28 23:30:03,326 - INFO -    1. Start your API server: python app.py
+2025-10-28 23:30:03,326 - INFO -    2. Test the semantic search endpoint
+2025-10-28 23:30:03,326 - INFO -    3. Integrate with your frontend
+2025-10-28 23:30:03,326 - INFO - 
+✨ Your AI-powered semantic search is now ready!
+2025-10-28 23:33:38,798 - INFO - ✅ Connected to database: startup_db
+2025-10-28 23:33:38,799 - INFO - Loading Sentence Transformer model (this may take a moment)...
+2025-10-28 23:33:38,818 - INFO - Use pytorch device_name: mps
+2025-10-28 23:33:38,818 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 23:33:44,017 - INFO - ✅ Model loaded successfully: all-MiniLM-L6-v2
+2025-10-28 23:33:44,017 - INFO -    - Embedding dimension: 384
+2025-10-28 23:33:44,018 - INFO -    - Max sequence length: 256 tokens
+2025-10-28 23:33:44,018 - INFO - 
+============================================================
+2025-10-28 23:33:44,018 - INFO - 🚀 YTHEYS EMBEDDING GENERATOR v2.0
+2025-10-28 23:33:44,018 - INFO - ============================================================
+2025-10-28 23:33:44,018 - INFO - Started at: 2025-10-28 23:33:44
+2025-10-28 23:33:44,018 - INFO - Database: startup_db
+2025-10-28 23:33:44,018 - INFO - Model: all-MiniLM-L6-v2
+2025-10-28 23:33:44,018 - INFO - Supports: String and Integer IDs
+2025-10-28 23:33:44,018 - INFO - ============================================================
+
+2025-10-28 23:33:44,018 - INFO - STEP 1: Detecting database schema...
+2025-10-28 23:33:44,114 - INFO - 
+📋 Detected 24 columns in 'organizations' table:
+2025-10-28 23:33:44,114 - INFO -    ID: id
+2025-10-28 23:33:44,114 - INFO -    Names: organization_name
+2025-10-28 23:33:44,114 - INFO -    Text fields: type, domain, description, goals, skills, tags
+2025-10-28 23:33:44,114 - INFO -    Other: email, website, country, city, founded_year, team_size, sdg_alignment, services, funding_stage, partners...
+2025-10-28 23:33:44,114 - INFO - 
+------------------------------------------------------------
+2025-10-28 23:33:44,114 - INFO - STEP 2: Preparing embedding column...
+2025-10-28 23:33:44,122 - INFO - ⚠️  embedding_vector column already exists
+2025-10-28 23:33:44,122 - INFO - 
+------------------------------------------------------------
+2025-10-28 23:33:44,122 - INFO - STEP 3: Generating embeddings...
+2025-10-28 23:33:44,122 - INFO - 
+📝 Using these columns for embeddings: organization_name, description, domain, type, skills, tags, goals, sdg_alignment, collaboration_needs
+2025-10-28 23:33:44,122 - INFO - 
+🔍 Query: SELECT id, organization_name, description, domain, type, skills, tags, goals, sdg_alignment, collaboration_needs FROM organizations
+2025-10-28 23:33:44,190 - INFO - 
+📊 Loaded 250 organizations from database
+2025-10-28 23:33:44,190 - INFO - 
+🔨 Building combined text from available fields...
+2025-10-28 23:33:44,200 - INFO - 
+📄 Sample combined text (first org):
+2025-10-28 23:33:44,200 - INFO -    AgriTech Labs 241 Providing advanced solutions in agritech for startups and corporates. AgriTech agency iot satellite_imagery data_analytics crop_monitoring True True True True Collaborate with corpor...
+2025-10-28 23:33:44,200 - INFO - 
+🚀 Generating embeddings for 250 organizations...
+2025-10-28 23:33:44,200 - INFO -    (This may take a few minutes...)
+2025-10-28 23:33:45,224 - INFO - ✅ Generated 250 embeddings
+2025-10-28 23:33:45,224 - INFO -    - Embedding shape: (384,)
+2025-10-28 23:33:45,224 - INFO - 
+💾 Storing embeddings in database...
+2025-10-28 23:33:45,393 - INFO - 
+✅ Embeddings saved successfully!
+2025-10-28 23:33:45,394 - INFO -    - Success: 250
+2025-10-28 23:33:45,394 - INFO - 
+------------------------------------------------------------
+2025-10-28 23:33:45,394 - INFO - STEP 4: Verifying embeddings...
+2025-10-28 23:33:45,399 - INFO - 
+============================================================
+2025-10-28 23:33:45,399 - INFO - 📈 EMBEDDING STATISTICS
+2025-10-28 23:33:45,399 - INFO - ============================================================
+2025-10-28 23:33:45,399 - INFO -    Total organizations:      250
+2025-10-28 23:33:45,399 - INFO -    With embeddings:          250
+2025-10-28 23:33:45,399 - INFO -    Without embeddings:       0
+2025-10-28 23:33:45,399 - INFO -    Coverage:                 100.0%
+2025-10-28 23:33:45,399 - INFO - ============================================================
+2025-10-28 23:33:45,399 - INFO - ✅ All organizations have embeddings!
+2025-10-28 23:33:45,400 - INFO - 
+------------------------------------------------------------
+2025-10-28 23:33:45,400 - INFO - STEP 5: Testing embedding quality...
+2025-10-28 23:33:45,400 - INFO - 
+🧪 Testing embedding quality...
+2025-10-28 23:33:45,400 - INFO -    Sample organization: AgriTech Labs 241 (ID: A2556)
+2025-10-28 23:33:45,400 - INFO -    Embedding length: 384
+2025-10-28 23:33:45,400 - INFO -    Embedding type: <class 'list'>
+2025-10-28 23:33:45,400 - INFO -    First 5 values: [-0.03970926254987717, -0.052079372107982635, -0.002927539637312293, -0.01943221315741539, 0.08580043166875839]
+2025-10-28 23:33:45,400 - INFO - ✅ Embedding dimension correct (384)
+2025-10-28 23:33:45,400 - INFO - 
+   Testing similarity with query: 'technology startup'
+2025-10-28 23:33:45,693 - INFO -    Similarity score: 0.3671
+2025-10-28 23:33:45,693 - INFO - ✅ Embedding quality test passed!
+2025-10-28 23:33:45,693 - INFO - 
+============================================================
+2025-10-28 23:33:45,693 - INFO - ✅ EMBEDDING GENERATION COMPLETE!
+2025-10-28 23:33:45,693 - INFO - ============================================================
+2025-10-28 23:33:45,693 - INFO - Started:  2025-10-28 23:33:44
+2025-10-28 23:33:45,693 - INFO - Finished: 2025-10-28 23:33:45
+2025-10-28 23:33:45,693 - INFO - Duration: 1.68 seconds (0.03 minutes)
+2025-10-28 23:33:45,693 - INFO - ============================================================
+2025-10-28 23:33:45,693 - INFO - 
+💡 Next Steps:
+2025-10-28 23:33:45,693 - INFO -    1. Start your API server: python app.py
+2025-10-28 23:33:45,693 - INFO -    2. Test the semantic search endpoint
+2025-10-28 23:33:45,693 - INFO -    3. Integrate with your frontend
+2025-10-28 23:33:45,693 - INFO - 
+✨ Your AI-powered semantic search is now ready!
+2025-10-29 01:52:59,762 - INFO - 🚀 Using Apple MPS (Metal) acceleration
+2025-10-29 01:52:59,843 - INFO - ✅ Connected to database: startup_db
+2025-10-29 01:52:59,843 - INFO - Loading GTE-Large embedding model (this may take a moment)...
+2025-10-29 01:52:59,843 - INFO -    This is a high-quality model - first download may take 1-2 minutes
+2025-10-29 01:52:59,844 - INFO - Load pretrained SentenceTransformer: thenlper/gte-large
+2025-10-29 01:54:27,881 - INFO - ✅ Model loaded successfully: thenlper/gte-large
+2025-10-29 01:54:27,882 - INFO -    - Embedding dimension: 1024 (higher quality than 384)
+2025-10-29 01:54:27,882 - INFO -    - Max sequence length: 512 tokens
+2025-10-29 01:54:27,882 - INFO -    - Device: mps
+2025-10-29 01:54:27,882 - INFO -    - Normalization: Enabled (unit-length vectors)
+2025-10-29 01:54:27,882 - INFO - 
+======================================================================
+2025-10-29 01:54:27,882 - INFO - 🚀 YTHEYS EMBEDDING GENERATOR - GTE-LARGE EDITION
+2025-10-29 01:54:27,882 - INFO - ======================================================================
+2025-10-29 01:54:27,882 - INFO - Started at: 2025-10-29 01:54:27
+2025-10-29 01:54:27,882 - INFO - Database: startup_db
+2025-10-29 01:54:27,882 - INFO - Model: thenlper/gte-large (1024-dim, normalized)
+2025-10-29 01:54:27,882 - INFO - Device: mps
+2025-10-29 01:54:27,882 - INFO - Supports: String and Integer IDs
+2025-10-29 01:54:27,882 - INFO - ======================================================================
+
+2025-10-29 01:54:27,882 - INFO - STEP 1: Detecting database schema...
+2025-10-29 01:54:27,957 - INFO - 
+📋 Detected 24 columns in 'organizations' table:
+2025-10-29 01:54:27,957 - INFO -    ID: id
+2025-10-29 01:54:27,957 - INFO -    Names: organization_name
+2025-10-29 01:54:27,957 - INFO -    Text fields: type, domain, description, goals, skills, tags
+2025-10-29 01:54:27,957 - INFO -    Other: email, website, country, city, founded_year, team_size, sdg_alignment, services, funding_stage, partners...
+2025-10-29 01:54:27,957 - INFO - 
+----------------------------------------------------------------------
+2025-10-29 01:54:27,957 - INFO - STEP 2: Preparing embedding column...
+2025-10-29 01:54:27,962 - INFO - ⚠️  embedding_vector column already exists
+2025-10-29 01:54:27,962 - INFO -    Existing embeddings will be REPLACED with new GTE-Large embeddings
+2025-10-29 01:54:27,963 - INFO - 
+----------------------------------------------------------------------
+2025-10-29 01:54:27,963 - INFO - STEP 3: Generating GTE-Large embeddings...
+2025-10-29 01:54:27,963 - INFO - 
+📝 Using these columns for embeddings: organization_name, description, domain, type, skills, tags, goals, sdg_alignment, collaboration_needs
+2025-10-29 01:54:27,963 - INFO - 
+🔍 Query: SELECT id, organization_name, description, domain, type, skills, tags, goals, sdg_alignment, collaboration_needs FROM organizations
+2025-10-29 01:54:28,035 - INFO - 
+📊 Loaded 250 organizations from database
+2025-10-29 01:54:28,035 - INFO - 
+🔨 Building combined text from available fields...
+2025-10-29 01:54:28,043 - INFO - 
+📄 Sample combined text (first org):
+2025-10-29 01:54:28,043 - INFO -    AgriTech Labs 241 Providing advanced solutions in agritech for startups and corporates. AgriTech agency iot satellite_imagery data_analytics crop_monitoring True True True True Collaborate with corpor...
+2025-10-29 01:54:28,043 - INFO - 
+🚀 Generating GTE-Large embeddings for 250 organizations...
+2025-10-29 01:54:28,043 - INFO -    Device: mps
+2025-10-29 01:54:28,043 - INFO -    Batch size: 16 (optimized for M1 Air memory)
+2025-10-29 01:54:28,043 - INFO -    Normalization: Enabled (unit-length vectors for stable cosine similarity)
+2025-10-29 01:54:28,043 - INFO -    (This may take 2-5 minutes depending on your hardware...)
+2025-10-29 01:54:38,032 - INFO - ✅ Generated 250 embeddings
+2025-10-29 01:54:38,033 - INFO -    - Embedding shape: (1024,) (1024-dimensional)
+2025-10-29 01:54:38,033 - INFO -    - Normalized: Yes (unit-length vectors)
+2025-10-29 01:54:38,033 - INFO - 
+💾 Storing embeddings in database...
+2025-10-29 01:54:38,033 - INFO -    Note: 1024-dim vectors are ~2.7x larger than 384-dim (higher quality trade-off)
+2025-10-29 01:54:38,369 - INFO - 
+✅ Embeddings saved successfully!
+2025-10-29 01:54:38,370 - INFO -    - Success: 250
+2025-10-29 01:54:38,370 - INFO - 
+----------------------------------------------------------------------
+2025-10-29 01:54:38,370 - INFO - STEP 4: Verifying embeddings...
+2025-10-29 01:54:38,374 - INFO - 
+============================================================
+2025-10-29 01:54:38,374 - INFO - 📈 EMBEDDING STATISTICS
+2025-10-29 01:54:38,374 - INFO - ============================================================
+2025-10-29 01:54:38,374 - INFO -    Total organizations:      250
+2025-10-29 01:54:38,374 - INFO -    With embeddings:          250
+2025-10-29 01:54:38,374 - INFO -    Without embeddings:       0
+2025-10-29 01:54:38,374 - INFO -    Coverage:                 100.0%
+2025-10-29 01:54:38,374 - INFO - ============================================================
+2025-10-29 01:54:38,374 - INFO - ✅ All organizations have GTE-Large embeddings!
+2025-10-29 01:54:38,375 - INFO - 
+----------------------------------------------------------------------
+2025-10-29 01:54:38,375 - INFO - STEP 5: Testing embedding quality...
+2025-10-29 01:54:38,375 - INFO - 
+🧪 Testing GTE-Large embedding quality...
+2025-10-29 01:54:38,376 - INFO -    Sample organization: AgriTech Labs 241 (ID: A2556)
+2025-10-29 01:54:38,376 - INFO -    Embedding length: 1024
+2025-10-29 01:54:38,376 - INFO -    Embedding type: <class 'list'>
+2025-10-29 01:54:38,376 - INFO -    First 5 values: [-0.0068, -0.0045, -0.0467, -0.0153, -0.0057]
+2025-10-29 01:54:38,379 - INFO -    Vector L2 norm: 1.000000 (should be ~1.0 for normalized)
+2025-10-29 01:54:38,379 - INFO - ✅ Embedding dimension correct (1024 - GTE-Large)
+2025-10-29 01:54:38,380 - INFO - ✅ Embeddings properly normalized (unit length)
+2025-10-29 01:54:38,380 - INFO - 
+   Testing similarity with query: 'technology startup'
+2025-10-29 01:54:39,024 - INFO -    Similarity score: 0.8169
+2025-10-29 01:54:39,024 - INFO - ✅ Embedding quality test passed!
+2025-10-29 01:54:39,024 - INFO - 
+======================================================================
+2025-10-29 01:54:39,024 - INFO - ✅ GTE-LARGE EMBEDDING GENERATION COMPLETE!
+2025-10-29 01:54:39,024 - INFO - ======================================================================
+2025-10-29 01:54:39,024 - INFO - Started:  2025-10-29 01:54:27
+2025-10-29 01:54:39,024 - INFO - Finished: 2025-10-29 01:54:39
+2025-10-29 01:54:39,024 - INFO - Duration: 11.14 seconds (0.19 minutes)
+2025-10-29 01:54:39,024 - INFO - ======================================================================
+2025-10-29 01:54:39,024 - INFO - 
+🎯 Upgrade Summary:
+2025-10-29 01:54:39,025 - INFO -    ✅ Model: thenlper/gte-large (higher quality than MiniLM)
+2025-10-29 01:54:39,025 - INFO -    ✅ Dimensions: 1024 (vs 384 previously)
+2025-10-29 01:54:39,025 - INFO -    ✅ Normalization: Enabled (stable cosine similarity)
+2025-10-29 01:54:39,025 - INFO -    ✅ Device: mps
+2025-10-29 01:54:39,025 - INFO -    ✅ Expected improvement: Better semantic matching accuracy
+2025-10-29 01:54:39,025 - INFO - 
+💡 Next Steps:
+2025-10-29 01:54:39,025 - INFO -    1. Update app.py to use GTE-Large (see updated version)
+2025-10-29 01:54:39,025 - INFO -    2. Restart API server: python app.py
+2025-10-29 01:54:39,025 - INFO -    3. Test semantic search - you should see better relevance!
+2025-10-29 01:54:39,025 - INFO - 
+✨ Your AI-powered semantic search is now upgraded to GTE-Large!

@@ -1,0 +1,537 @@
+2025-10-28 23:27:10,452 - app - INFO - ============================================================
+2025-10-28 23:27:10,453 - app - INFO - 🚀 YTHEYS STARTUP NETWORK API INITIALIZING
+2025-10-28 23:27:10,453 - app - INFO - ============================================================
+2025-10-28 23:27:10,453 - app - INFO - ✅ Database: startup_db
+2025-10-28 23:27:10,453 - app - INFO - ✅ Total columns detected: 24
+2025-10-28 23:27:10,453 - app - INFO - ✅ Views tracking: ENABLED
+2025-10-28 23:27:10,453 - app - INFO - ✅ Verified flag: ENABLED
+2025-10-28 23:27:10,453 - app - INFO - ✅ AI Embeddings: READY ⚡
+2025-10-28 23:27:10,453 - app - INFO - ============================================================
+2025-10-28 23:27:10,488 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-10-28 23:27:10,488 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 23:27:15,591 - app - INFO - ✅ Sentence Transformer model loaded (all-MiniLM-L6-v2)
+2025-10-28 23:27:15,621 - app - INFO - ✅ Redis cache initialized successfully
+2025-10-28 23:27:15,672 - app - INFO - ✅ Database connection verified
+2025-10-28 23:27:15,672 - app - INFO - ✅ API startup complete - Ready to accept requests
+2025-10-28 23:29:12,346 - app - INFO - 🔴 Shutting down API gracefully...
+2025-10-28 23:29:12,351 - app - INFO - ✅ Database connections closed
+2025-10-28 23:29:17,141 - app - INFO - ============================================================
+2025-10-28 23:29:17,141 - app - INFO - 🚀 YTHEYS STARTUP NETWORK API INITIALIZING
+2025-10-28 23:29:17,141 - app - INFO - ============================================================
+2025-10-28 23:29:17,141 - app - INFO - ✅ Database: startup_db
+2025-10-28 23:29:17,141 - app - INFO - ✅ Total columns detected: 24
+2025-10-28 23:29:17,141 - app - INFO - ✅ Views tracking: ENABLED
+2025-10-28 23:29:17,141 - app - INFO - ✅ Verified flag: ENABLED
+2025-10-28 23:29:17,142 - app - INFO - ✅ AI Embeddings: READY ⚡
+2025-10-28 23:29:17,142 - app - INFO - ============================================================
+2025-10-28 23:29:17,194 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-10-28 23:29:17,194 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 23:29:22,670 - app - INFO - ✅ Sentence Transformer model loaded (all-MiniLM-L6-v2)
+2025-10-28 23:29:22,696 - app - INFO - ✅ Redis cache initialized successfully
+2025-10-28 23:29:22,700 - app - INFO - ✅ Database connection verified
+2025-10-28 23:29:22,700 - app - INFO - ✅ API startup complete - Ready to accept requests
+2025-10-28 23:33:23,575 - app - INFO - 🔴 Shutting down API gracefully...
+2025-10-28 23:33:23,582 - app - INFO - ✅ Database connections closed
+2025-10-28 23:33:28,582 - app - INFO - ============================================================
+2025-10-28 23:33:28,582 - app - INFO - 🚀 YTHEYS STARTUP NETWORK API INITIALIZING
+2025-10-28 23:33:28,582 - app - INFO - ============================================================
+2025-10-28 23:33:28,582 - app - INFO - ✅ Database: startup_db
+2025-10-28 23:33:28,582 - app - INFO - ✅ Total columns detected: 24
+2025-10-28 23:33:28,582 - app - INFO - ✅ Views tracking: ENABLED
+2025-10-28 23:33:28,582 - app - INFO - ✅ Verified flag: ENABLED
+2025-10-28 23:33:28,582 - app - INFO - ✅ AI Embeddings: READY ⚡
+2025-10-28 23:33:28,582 - app - INFO - ============================================================
+2025-10-28 23:33:28,636 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-10-28 23:33:28,636 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 23:33:34,262 - app - INFO - ✅ Sentence Transformer model loaded (all-MiniLM-L6-v2)
+2025-10-28 23:33:34,290 - app - INFO - ✅ Redis cache initialized successfully
+2025-10-28 23:33:34,294 - app - INFO - ✅ Database connection verified
+2025-10-28 23:33:34,294 - app - INFO - ✅ API startup complete - Ready to accept requests
+2025-10-28 23:33:38,835 - app - INFO - ============================================================
+2025-10-28 23:33:38,835 - app - INFO - 🚀 YTHEYS STARTUP NETWORK API INITIALIZING
+2025-10-28 23:33:38,835 - app - INFO - ============================================================
+2025-10-28 23:33:38,835 - app - INFO - ✅ Database: startup_db
+2025-10-28 23:33:38,835 - app - INFO - ✅ Total columns detected: 24
+2025-10-28 23:33:38,835 - app - INFO - ✅ Views tracking: ENABLED
+2025-10-28 23:33:38,835 - app - INFO - ✅ Verified flag: ENABLED
+2025-10-28 23:33:38,835 - app - INFO - ✅ AI Embeddings: READY ⚡
+2025-10-28 23:33:38,835 - app - INFO - ============================================================
+2025-10-28 23:33:38,854 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-10-28 23:33:38,854 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 23:33:43,655 - app - INFO - ✅ Sentence Transformer model loaded (all-MiniLM-L6-v2)
+2025-10-28 23:33:43,674 - app - INFO - ✅ Redis cache initialized successfully
+2025-10-28 23:33:43,677 - app - INFO - ✅ Database connection verified
+2025-10-28 23:33:43,677 - app - INFO - ✅ API startup complete - Ready to accept requests
+2025-10-28 23:34:20,903 - __main__ - INFO - ============================================================
+2025-10-28 23:34:20,903 - __main__ - INFO - 🚀 YTHEYS STARTUP NETWORK API INITIALIZING
+2025-10-28 23:34:20,903 - __main__ - INFO - ============================================================
+2025-10-28 23:34:20,903 - __main__ - INFO - ✅ Database: startup_db
+2025-10-28 23:34:20,903 - __main__ - INFO - ✅ Total columns detected: 24
+2025-10-28 23:34:20,903 - __main__ - INFO - ✅ Views tracking: ENABLED
+2025-10-28 23:34:20,903 - __main__ - INFO - ✅ Verified flag: ENABLED
+2025-10-28 23:34:20,903 - __main__ - INFO - ✅ AI Embeddings: READY ⚡
+2025-10-28 23:34:20,903 - __main__ - INFO - ============================================================
+2025-10-28 23:34:20,930 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-10-28 23:34:20,930 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 23:34:25,755 - __main__ - INFO - ✅ Sentence Transformer model loaded (all-MiniLM-L6-v2)
+2025-10-28 23:34:25,788 - __main__ - INFO - ============================================================
+2025-10-28 23:34:25,789 - __main__ - INFO - 🚀 Starting Ytheys Startup Network API Server...
+2025-10-28 23:34:25,789 - __main__ - INFO - ============================================================
+2025-10-28 23:34:30,773 - __mp_main__ - INFO - ============================================================
+2025-10-28 23:34:30,773 - __mp_main__ - INFO - 🚀 YTHEYS STARTUP NETWORK API INITIALIZING
+2025-10-28 23:34:30,773 - __mp_main__ - INFO - ============================================================
+2025-10-28 23:34:30,773 - __mp_main__ - INFO - ✅ Database: startup_db
+2025-10-28 23:34:30,773 - __mp_main__ - INFO - ✅ Total columns detected: 24
+2025-10-28 23:34:30,773 - __mp_main__ - INFO - ✅ Views tracking: ENABLED
+2025-10-28 23:34:30,773 - __mp_main__ - INFO - ✅ Verified flag: ENABLED
+2025-10-28 23:34:30,773 - __mp_main__ - INFO - ✅ AI Embeddings: READY ⚡
+2025-10-28 23:34:30,773 - __mp_main__ - INFO - ============================================================
+2025-10-28 23:34:30,795 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-10-28 23:34:30,795 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 23:34:36,839 - __mp_main__ - INFO - ✅ Sentence Transformer model loaded (all-MiniLM-L6-v2)
+2025-10-28 23:34:36,973 - app - INFO - ============================================================
+2025-10-28 23:34:36,973 - app - INFO - 🚀 YTHEYS STARTUP NETWORK API INITIALIZING
+2025-10-28 23:34:36,973 - app - INFO - ============================================================
+2025-10-28 23:34:36,973 - app - INFO - ✅ Database: startup_db
+2025-10-28 23:34:36,973 - app - INFO - ✅ Total columns detected: 24
+2025-10-28 23:34:36,973 - app - INFO - ✅ Views tracking: ENABLED
+2025-10-28 23:34:36,973 - app - INFO - ✅ Verified flag: ENABLED
+2025-10-28 23:34:36,973 - app - INFO - ✅ AI Embeddings: READY ⚡
+2025-10-28 23:34:36,973 - app - INFO - ============================================================
+2025-10-28 23:34:36,974 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-10-28 23:34:36,974 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-28 23:34:42,170 - app - INFO - ✅ Sentence Transformer model loaded (all-MiniLM-L6-v2)
+2025-10-28 23:34:42,201 - app - INFO - ✅ Redis cache initialized successfully
+2025-10-28 23:34:42,259 - app - INFO - ✅ Database connection verified
+2025-10-28 23:34:42,259 - app - INFO - ✅ API startup complete - Ready to accept requests
+2025-10-28 23:36:20,512 - app - INFO - GET /docs - Status: 200 - Time: 1.50ms
+2025-10-28 23:36:21,101 - fastapi - WARNING - email-validator not installed, email fields will be treated as str.
+To install, run: pip install email-validator
+2025-10-28 23:36:21,110 - app - INFO - GET /openapi.json - Status: 200 - Time: 31.04ms
+2025-10-28 23:40:03,333 - app - INFO - 🔍 AI Search initiated: 'Suggest me a start which can build a landing page for my business with SEO optimisation'
+2025-10-28 23:40:05,071 - app - INFO - 📊 Comparing with 250 organizations...
+2025-10-28 23:40:05,104 - app - INFO - ✅ Search complete: 10 matches in 1769.08ms
+2025-10-28 23:40:05,105 - app - INFO - POST /recommendations/semantic - Status: 200 - Time: 1787.63ms
+2025-10-28 23:41:16,929 - app - INFO - 🔍 AI Search initiated: 'Suggest me a start which can build a landing page for my business with SEO optimisation'
+2025-10-28 23:41:17,529 - app - INFO - 📊 Comparing with 250 organizations...
+2025-10-28 23:41:17,571 - app - INFO - ✅ Search complete: 3 matches in 640.59ms
+2025-10-28 23:41:17,572 - app - INFO - POST /recommendations/semantic - Status: 200 - Time: 649.10ms
+2025-10-28 23:41:27,211 - app - INFO - 🔍 AI Search initiated: 'Suggest me a start which can build a landing page for my business with SEO optimisation'
+2025-10-28 23:41:27,456 - app - INFO - 📊 Comparing with 250 organizations...
+2025-10-28 23:41:27,484 - app - INFO - ✅ Search complete: 3 matches in 272.71ms
+2025-10-28 23:41:27,485 - app - INFO - POST /recommendations/semantic - Status: 200 - Time: 275.47ms
+2025-10-29 00:21:31,266 - app - INFO - 🔍 AI Search initiated: 'Make a github repo'
+2025-10-29 00:21:32,779 - app - INFO - 📊 Comparing with 250 organizations...
+2025-10-29 00:21:32,814 - app - INFO - ✅ Search complete: 3 matches in 1546.14ms
+2025-10-29 00:21:32,816 - app - INFO - POST /recommendations/semantic - Status: 200 - Time: 1564.06ms
+2025-10-29 01:05:22,101 - app - INFO - 🔍 AI Search initiated: 'Make a website for my fintech'
+2025-10-29 01:05:22,983 - app - INFO - 📊 Comparing with 250 organizations...
+2025-10-29 01:05:23,023 - app - INFO - ✅ Search complete: 3 matches in 907.92ms
+2025-10-29 01:05:23,026 - app - INFO - POST /recommendations/semantic - Status: 200 - Time: 938.78ms
+2025-10-29 01:16:29,407 - app - INFO - 🔍 AI Search initiated: 'i need a website for my fintech startup'
+2025-10-29 01:16:30,908 - app - INFO - 📊 Comparing with 250 organizations...
+2025-10-29 01:16:30,947 - app - INFO - ✅ Search complete: 3 matches in 1531.08ms
+2025-10-29 01:16:30,949 - app - INFO - POST /recommendations/semantic - Status: 200 - Time: 1557.95ms
+2025-10-29 01:18:07,923 - app - INFO - 🔍 AI Search initiated: 'i need a website for my fintech startup'
+2025-10-29 01:18:08,368 - app - INFO - 📊 Comparing with 250 organizations...
+2025-10-29 01:18:08,404 - app - INFO - ✅ Search complete: 3 matches in 479.60ms
+2025-10-29 01:18:08,405 - app - INFO - POST /recommendations/semantic - Status: 200 - Time: 490.34ms
+2025-10-29 01:44:36,977 - app - INFO - 🔴 Shutting down API gracefully...
+2025-10-29 01:44:36,977 - app - INFO - 🔴 Shutting down API gracefully...
+2025-10-29 01:44:37,006 - app - INFO - ✅ Database connections closed
+2025-10-29 01:44:37,006 - app - INFO - ✅ Database connections closed
+2025-10-29 01:44:42,780 - app - INFO - ============================================================
+2025-10-29 01:44:42,781 - app - INFO - 🚀 YTHEYS STARTUP NETWORK API INITIALIZING
+2025-10-29 01:44:42,781 - app - INFO - ============================================================
+2025-10-29 01:44:42,781 - app - INFO - ✅ Database: startup_db
+2025-10-29 01:44:42,781 - app - INFO - ✅ Total columns detected: 24
+2025-10-29 01:44:42,781 - app - INFO - ✅ Views tracking: ENABLED
+2025-10-29 01:44:42,781 - app - INFO - ✅ Verified flag: ENABLED
+2025-10-29 01:44:42,781 - app - INFO - ✅ AI Embeddings: READY ⚡
+2025-10-29 01:44:42,781 - app - INFO - ============================================================
+2025-10-29 01:44:42,920 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-10-29 01:44:42,921 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 01:44:43,520 - __mp_main__ - INFO - ============================================================
+2025-10-29 01:44:43,520 - __mp_main__ - INFO - 🚀 YTHEYS STARTUP NETWORK API INITIALIZING
+2025-10-29 01:44:43,520 - __mp_main__ - INFO - ============================================================
+2025-10-29 01:44:43,520 - __mp_main__ - INFO - ✅ Database: startup_db
+2025-10-29 01:44:43,520 - __mp_main__ - INFO - ✅ Total columns detected: 24
+2025-10-29 01:44:43,520 - __mp_main__ - INFO - ✅ Views tracking: ENABLED
+2025-10-29 01:44:43,520 - __mp_main__ - INFO - ✅ Verified flag: ENABLED
+2025-10-29 01:44:43,520 - __mp_main__ - INFO - ✅ AI Embeddings: READY ⚡
+2025-10-29 01:44:43,520 - __mp_main__ - INFO - ============================================================
+2025-10-29 01:44:43,538 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-10-29 01:44:43,538 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 01:46:07,389 - app - INFO - ✅ Sentence Transformer model loaded (all-MiniLM-L6-v2)
+2025-10-29 01:46:07,500 - app - INFO - ✅ Redis cache initialized successfully
+2025-10-29 01:46:07,615 - app - INFO - ✅ Database connection verified
+2025-10-29 01:46:07,618 - app - INFO - ✅ API startup complete - Ready to accept requests
+2025-10-29 01:46:07,697 - __mp_main__ - INFO - ✅ Sentence Transformer model loaded (all-MiniLM-L6-v2)
+2025-10-29 01:46:07,867 - app - INFO - ============================================================
+2025-10-29 01:46:07,867 - app - INFO - 🚀 YTHEYS STARTUP NETWORK API INITIALIZING
+2025-10-29 01:46:07,867 - app - INFO - ============================================================
+2025-10-29 01:46:07,867 - app - INFO - ✅ Database: startup_db
+2025-10-29 01:46:07,867 - app - INFO - ✅ Total columns detected: 24
+2025-10-29 01:46:07,867 - app - INFO - ✅ Views tracking: ENABLED
+2025-10-29 01:46:07,867 - app - INFO - ✅ Verified flag: ENABLED
+2025-10-29 01:46:07,867 - app - INFO - ✅ AI Embeddings: READY ⚡
+2025-10-29 01:46:07,867 - app - INFO - ============================================================
+2025-10-29 01:46:07,868 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-10-29 01:46:07,869 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 01:46:11,843 - app - INFO - ✅ Sentence Transformer model loaded (all-MiniLM-L6-v2)
+2025-10-29 01:46:11,861 - app - INFO - ✅ Redis cache initialized successfully
+2025-10-29 01:46:11,867 - app - INFO - ✅ Database connection verified
+2025-10-29 01:46:11,867 - app - INFO - ✅ API startup complete - Ready to accept requests
+2025-10-29 01:46:13,865 - app - INFO - ============================================================
+2025-10-29 01:46:13,865 - app - INFO - 🚀 YTHEYS STARTUP NETWORK API INITIALIZING
+2025-10-29 01:46:13,865 - app - INFO - ============================================================
+2025-10-29 01:46:13,866 - app - INFO - ✅ Database: startup_db
+2025-10-29 01:46:13,866 - app - INFO - ✅ Total columns detected: 24
+2025-10-29 01:46:13,866 - app - INFO - ✅ Views tracking: ENABLED
+2025-10-29 01:46:13,866 - app - INFO - ✅ Verified flag: ENABLED
+2025-10-29 01:46:13,866 - app - INFO - ✅ AI Embeddings: READY ⚡
+2025-10-29 01:46:13,866 - app - INFO - ============================================================
+2025-10-29 01:46:13,948 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-10-29 01:46:13,948 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 01:47:38,318 - app - INFO - ✅ Sentence Transformer model loaded (all-MiniLM-L6-v2)
+2025-10-29 01:47:38,356 - app - INFO - ✅ Redis cache initialized successfully
+2025-10-29 01:47:38,413 - app - INFO - ✅ Database connection verified
+2025-10-29 01:47:38,413 - app - INFO - ✅ API startup complete - Ready to accept requests
+2025-10-29 01:48:41,285 - app - INFO - 🔴 Shutting down API gracefully...
+2025-10-29 01:48:41,296 - app - INFO - ✅ Database connections closed
+2025-10-29 01:48:41,299 - app - INFO - 🔴 Shutting down API gracefully...
+2025-10-29 01:48:41,303 - app - INFO - ✅ Database connections closed
+2025-10-29 01:48:46,819 - app - INFO - ======================================================================
+2025-10-29 01:48:46,819 - __mp_main__ - INFO - ======================================================================
+2025-10-29 01:48:46,819 - __mp_main__ - INFO - 🚀 YTHEYS STARTUP NETWORK API - GTE-LARGE EDITION
+2025-10-29 01:48:46,819 - __mp_main__ - INFO - ======================================================================
+2025-10-29 01:48:46,819 - __mp_main__ - INFO - ✅ Database: startup_db
+2025-10-29 01:48:46,819 - __mp_main__ - INFO - ✅ Total columns detected: 24
+2025-10-29 01:48:46,819 - __mp_main__ - INFO - ✅ Views tracking: ENABLED
+2025-10-29 01:48:46,819 - __mp_main__ - INFO - ✅ Verified flag: ENABLED
+2025-10-29 01:48:46,819 - app - INFO - 🚀 YTHEYS STARTUP NETWORK API - GTE-LARGE EDITION
+2025-10-29 01:48:46,819 - __mp_main__ - INFO - ✅ AI Embeddings: READY ⚡
+2025-10-29 01:48:46,819 - __mp_main__ - INFO - ✅ Compute device: MPS
+2025-10-29 01:48:46,819 - __mp_main__ - INFO - ======================================================================
+2025-10-29 01:48:46,819 - app - INFO - ======================================================================
+2025-10-29 01:48:46,819 - app - INFO - ✅ Database: startup_db
+2025-10-29 01:48:46,819 - app - INFO - ✅ Total columns detected: 24
+2025-10-29 01:48:46,819 - app - INFO - ✅ Views tracking: ENABLED
+2025-10-29 01:48:46,819 - app - INFO - ✅ Verified flag: ENABLED
+2025-10-29 01:48:46,819 - app - INFO - ✅ AI Embeddings: READY ⚡
+2025-10-29 01:48:46,820 - app - INFO - ✅ Compute device: MPS
+2025-10-29 01:48:46,820 - app - INFO - ======================================================================
+2025-10-29 01:48:46,820 - __mp_main__ - INFO - Loading GTE-Large model (first load may take 1-2 minutes)...
+2025-10-29 01:48:46,820 - app - INFO - Loading GTE-Large model (first load may take 1-2 minutes)...
+2025-10-29 01:48:46,820 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: thenlper/gte-large
+2025-10-29 01:48:46,820 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: thenlper/gte-large
+2025-10-29 01:51:39,556 - app - INFO - ✅ Sentence Transformer model loaded: thenlper/gte-large
+2025-10-29 01:51:39,539 - __mp_main__ - INFO - ✅ Sentence Transformer model loaded: thenlper/gte-large
+2025-10-29 01:51:39,657 - __mp_main__ - INFO -    - Embedding dimension: 1024 (higher quality)
+2025-10-29 01:51:39,658 - __mp_main__ - INFO -    - Device: mps
+2025-10-29 01:51:39,659 - __mp_main__ - INFO -    - Normalization: Enabled
+2025-10-29 01:51:39,657 - app - INFO -    - Embedding dimension: 1024 (higher quality)
+2025-10-29 01:51:39,661 - app - INFO -    - Device: mps
+2025-10-29 01:51:39,667 - app - INFO -    - Normalization: Enabled
+2025-10-29 01:51:40,234 - app - INFO - ✅ Redis cache initialized successfully
+2025-10-29 01:51:40,449 - app - INFO - ✅ Database connection verified
+2025-10-29 01:51:40,449 - app - INFO - ✅ API startup complete - Ready to accept requests
+2025-10-29 01:51:41,284 - app - INFO - ======================================================================
+2025-10-29 01:51:41,284 - app - INFO - 🚀 YTHEYS STARTUP NETWORK API - GTE-LARGE EDITION
+2025-10-29 01:51:41,284 - app - INFO - ======================================================================
+2025-10-29 01:51:41,284 - app - INFO - ✅ Database: startup_db
+2025-10-29 01:51:41,284 - app - INFO - ✅ Total columns detected: 24
+2025-10-29 01:51:41,284 - app - INFO - ✅ Views tracking: ENABLED
+2025-10-29 01:51:41,284 - app - INFO - ✅ Verified flag: ENABLED
+2025-10-29 01:51:41,284 - app - INFO - ✅ AI Embeddings: READY ⚡
+2025-10-29 01:51:41,284 - app - INFO - ✅ Compute device: MPS
+2025-10-29 01:51:41,284 - app - INFO - ======================================================================
+2025-10-29 01:51:41,285 - app - INFO - Loading GTE-Large model (first load may take 1-2 minutes)...
+2025-10-29 01:51:41,294 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: thenlper/gte-large
+2025-10-29 01:51:56,641 - app - INFO - ✅ Sentence Transformer model loaded: thenlper/gte-large
+2025-10-29 01:51:56,651 - app - INFO -    - Embedding dimension: 1024 (higher quality)
+2025-10-29 01:51:56,651 - app - INFO -    - Device: mps
+2025-10-29 01:51:56,651 - app - INFO -    - Normalization: Enabled
+2025-10-29 01:51:56,881 - app - INFO - ✅ Redis cache initialized successfully
+2025-10-29 01:51:57,062 - app - INFO - ✅ Database connection verified
+2025-10-29 01:51:57,063 - app - INFO - ✅ API startup complete - Ready to accept requests
+2025-10-29 01:52:51,632 - app - INFO - 🔴 Shutting down API gracefully...
+2025-10-29 01:52:51,637 - app - INFO - ✅ Database connections closed
+2025-10-29 01:55:00,192 - __main__ - INFO - ======================================================================
+2025-10-29 01:55:00,192 - __main__ - INFO - 🚀 YTHEYS STARTUP NETWORK API - GTE-LARGE EDITION
+2025-10-29 01:55:00,192 - __main__ - INFO - ======================================================================
+2025-10-29 01:55:00,192 - __main__ - INFO - ✅ Database: startup_db
+2025-10-29 01:55:00,192 - __main__ - INFO - ✅ Total columns detected: 24
+2025-10-29 01:55:00,192 - __main__ - INFO - ✅ Views tracking: ENABLED
+2025-10-29 01:55:00,192 - __main__ - INFO - ✅ Verified flag: ENABLED
+2025-10-29 01:55:00,192 - __main__ - INFO - ✅ AI Embeddings: READY ⚡
+2025-10-29 01:55:00,192 - __main__ - INFO - ✅ Compute device: MPS
+2025-10-29 01:55:00,192 - __main__ - INFO - ======================================================================
+2025-10-29 01:55:00,193 - __main__ - INFO - Loading GTE-Large model (first load may take 1-2 minutes)...
+2025-10-29 01:55:00,193 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: thenlper/gte-large
+2025-10-29 01:56:27,110 - __main__ - INFO - ✅ Sentence Transformer model loaded: thenlper/gte-large
+2025-10-29 01:56:27,112 - __main__ - INFO -    - Embedding dimension: 1024 (higher quality)
+2025-10-29 01:56:27,112 - __main__ - INFO -    - Device: mps
+2025-10-29 01:56:27,112 - __main__ - INFO -    - Normalization: Enabled
+2025-10-29 01:56:27,151 - __main__ - INFO - ======================================================================
+2025-10-29 01:56:27,152 - __main__ - INFO - 🚀 Starting Ytheys API with GTE-Large Embeddings...
+2025-10-29 01:56:27,152 - __main__ - INFO - ======================================================================
+2025-10-29 01:56:31,874 - __mp_main__ - INFO - ======================================================================
+2025-10-29 01:56:31,874 - __mp_main__ - INFO - 🚀 YTHEYS STARTUP NETWORK API - GTE-LARGE EDITION
+2025-10-29 01:56:31,874 - __mp_main__ - INFO - ======================================================================
+2025-10-29 01:56:31,874 - __mp_main__ - INFO - ✅ Database: startup_db
+2025-10-29 01:56:31,874 - __mp_main__ - INFO - ✅ Total columns detected: 24
+2025-10-29 01:56:31,874 - __mp_main__ - INFO - ✅ Views tracking: ENABLED
+2025-10-29 01:56:31,874 - __mp_main__ - INFO - ✅ Verified flag: ENABLED
+2025-10-29 01:56:31,874 - __mp_main__ - INFO - ✅ AI Embeddings: READY ⚡
+2025-10-29 01:56:31,874 - __mp_main__ - INFO - ✅ Compute device: MPS
+2025-10-29 01:56:31,874 - __mp_main__ - INFO - ======================================================================
+2025-10-29 01:56:31,874 - __mp_main__ - INFO - Loading GTE-Large model (first load may take 1-2 minutes)...
+2025-10-29 01:56:31,875 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: thenlper/gte-large
+2025-10-29 01:56:45,296 - app - INFO - GET / - Status: 200 - Time: 30.40ms
+2025-10-29 01:56:52,426 - app - INFO - GET /docs - Status: 200 - Time: 2.48ms
+2025-10-29 01:56:52,774 - fastapi - WARNING - email-validator not installed, email fields will be treated as str.
+To install, run: pip install email-validator
+2025-10-29 01:56:52,797 - app - INFO - GET /openapi.json - Status: 200 - Time: 145.50ms
+2025-10-29 01:57:59,789 - __mp_main__ - INFO - ✅ Sentence Transformer model loaded: thenlper/gte-large
+2025-10-29 01:57:59,790 - __mp_main__ - INFO -    - Embedding dimension: 1024 (higher quality)
+2025-10-29 01:57:59,790 - __mp_main__ - INFO -    - Device: mps
+2025-10-29 01:57:59,790 - __mp_main__ - INFO -    - Normalization: Enabled
+2025-10-29 01:57:59,927 - app - INFO - ======================================================================
+2025-10-29 01:57:59,928 - app - INFO - 🚀 YTHEYS STARTUP NETWORK API - GTE-LARGE EDITION
+2025-10-29 01:57:59,928 - app - INFO - ======================================================================
+2025-10-29 01:57:59,928 - app - INFO - ✅ Database: startup_db
+2025-10-29 01:57:59,928 - app - INFO - ✅ Total columns detected: 24
+2025-10-29 01:57:59,928 - app - INFO - ✅ Views tracking: ENABLED
+2025-10-29 01:57:59,928 - app - INFO - ✅ Verified flag: ENABLED
+2025-10-29 01:57:59,928 - app - INFO - ✅ AI Embeddings: READY ⚡
+2025-10-29 01:57:59,928 - app - INFO - ✅ Compute device: MPS
+2025-10-29 01:57:59,928 - app - INFO - ======================================================================
+2025-10-29 01:57:59,928 - app - INFO - Loading GTE-Large model (first load may take 1-2 minutes)...
+2025-10-29 01:57:59,929 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: thenlper/gte-large
+2025-10-29 01:58:07,092 - app - INFO - ✅ Sentence Transformer model loaded: thenlper/gte-large
+2025-10-29 01:58:07,093 - app - INFO -    - Embedding dimension: 1024 (higher quality)
+2025-10-29 01:58:07,093 - app - INFO -    - Device: mps
+2025-10-29 01:58:07,093 - app - INFO -    - Normalization: Enabled
+2025-10-29 01:58:07,114 - app - INFO - ✅ Redis cache initialized successfully
+2025-10-29 01:58:07,157 - app - INFO - ✅ Database connection verified
+2025-10-29 01:58:07,157 - app - INFO - ✅ API startup complete - Ready to accept requests
+2025-10-29 01:58:25,698 - app - INFO - 🔍 GTE-Large Search initiated: 'build an ml model for my sales firm'
+2025-10-29 01:58:32,272 - app - INFO - 📊 Comparing with 250 organizations using GTE-Large...
+2025-10-29 01:58:32,360 - app - INFO - ✅ GTE-Large search complete: 10 matches in 6660.04ms
+2025-10-29 01:58:32,362 - app - INFO - POST /recommendations/semantic - Status: 200 - Time: 6689.11ms
+2025-10-29 02:03:44,441 - app - INFO - 🔴 Shutting down API gracefully...
+2025-10-29 02:03:44,469 - app - INFO - ✅ Database connections closed
+2025-10-29 02:03:44,479 - app - INFO - 🔴 Shutting down API gracefully...
+2025-10-29 02:03:44,508 - app - INFO - ✅ Database connections closed
+2025-10-29 02:03:50,433 - app - INFO - ======================================================================
+2025-10-29 02:03:50,433 - __mp_main__ - INFO - ======================================================================
+2025-10-29 02:03:50,434 - app - INFO - 🚀 YTHEYS STARTUP NETWORK API - GTE-LARGE EDITION
+2025-10-29 02:03:50,434 - __mp_main__ - INFO - 🚀 YTHEYS STARTUP NETWORK API - GTE-LARGE EDITION
+2025-10-29 02:03:50,434 - app - INFO - ======================================================================
+2025-10-29 02:03:50,434 - __mp_main__ - INFO - ======================================================================
+2025-10-29 02:03:50,434 - app - INFO - ✅ Database: startup_db
+2025-10-29 02:03:50,434 - __mp_main__ - INFO - ✅ Database: startup_db
+2025-10-29 02:03:50,434 - app - INFO - ✅ Total columns detected: 24
+2025-10-29 02:03:50,434 - __mp_main__ - INFO - ✅ Total columns detected: 24
+2025-10-29 02:03:50,434 - app - INFO - ✅ Views tracking: ENABLED
+2025-10-29 02:03:50,434 - __mp_main__ - INFO - ✅ Views tracking: ENABLED
+2025-10-29 02:03:50,434 - app - INFO - ✅ Verified flag: ENABLED
+2025-10-29 02:03:50,434 - __mp_main__ - INFO - ✅ Verified flag: ENABLED
+2025-10-29 02:03:50,434 - app - INFO - ✅ AI Embeddings: READY ⚡
+2025-10-29 02:03:50,434 - __mp_main__ - INFO - ✅ AI Embeddings: READY ⚡
+2025-10-29 02:03:50,434 - app - INFO - ✅ Compute device: MPS
+2025-10-29 02:03:50,434 - __mp_main__ - INFO - ✅ Compute device: MPS
+2025-10-29 02:03:50,434 - app - INFO - ======================================================================
+2025-10-29 02:03:50,434 - __mp_main__ - INFO - ======================================================================
+2025-10-29 02:03:50,434 - app - INFO - Loading GTE-Large model (first load may take 1-2 minutes)...
+2025-10-29 02:03:50,434 - __mp_main__ - INFO - Loading GTE-Large model (first load may take 1-2 minutes)...
+2025-10-29 02:03:50,434 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: thenlper/gte-large
+2025-10-29 02:03:50,434 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: thenlper/gte-large
+2025-10-29 02:05:20,369 - app - INFO - ✅ Sentence Transformer model loaded: thenlper/gte-large
+2025-10-29 02:05:20,390 - app - INFO -    - Embedding dimension: 1024 (higher quality)
+2025-10-29 02:05:20,390 - app - INFO -    - Device: mps
+2025-10-29 02:05:20,390 - app - INFO -    - Normalization: Enabled
+2025-10-29 02:05:20,449 - __mp_main__ - INFO - ✅ Sentence Transformer model loaded: thenlper/gte-large
+2025-10-29 02:05:20,462 - __mp_main__ - INFO -    - Embedding dimension: 1024 (higher quality)
+2025-10-29 02:05:20,462 - __mp_main__ - INFO -    - Device: mps
+2025-10-29 02:05:20,462 - __mp_main__ - INFO -    - Normalization: Enabled
+2025-10-29 02:05:20,761 - app - INFO - ✅ Redis cache initialized successfully
+2025-10-29 02:05:21,133 - app - INFO - ✅ Database connection verified
+2025-10-29 02:05:21,162 - app - INFO - ✅ API startup complete - Ready to accept requests
+2025-10-29 02:05:21,509 - app - INFO - ======================================================================
+2025-10-29 02:05:21,511 - app - INFO - 🚀 YTHEYS STARTUP NETWORK API - GTE-LARGE EDITION
+2025-10-29 02:05:21,511 - app - INFO - ======================================================================
+2025-10-29 02:05:21,511 - app - INFO - ✅ Database: startup_db
+2025-10-29 02:05:21,511 - app - INFO - ✅ Total columns detected: 24
+2025-10-29 02:05:21,511 - app - INFO - ✅ Views tracking: ENABLED
+2025-10-29 02:05:21,511 - app - INFO - ✅ Verified flag: ENABLED
+2025-10-29 02:05:21,511 - app - INFO - ✅ AI Embeddings: READY ⚡
+2025-10-29 02:05:21,511 - app - INFO - ✅ Compute device: MPS
+2025-10-29 02:05:21,511 - app - INFO - ======================================================================
+2025-10-29 02:05:21,515 - app - INFO - Loading GTE-Large model (first load may take 1-2 minutes)...
+2025-10-29 02:05:21,544 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: thenlper/gte-large
+2025-10-29 02:05:38,380 - app - INFO - ✅ Sentence Transformer model loaded: thenlper/gte-large
+2025-10-29 02:05:38,414 - app - INFO -    - Embedding dimension: 1024 (higher quality)
+2025-10-29 02:05:38,414 - app - INFO -    - Device: mps
+2025-10-29 02:05:38,414 - app - INFO -    - Normalization: Enabled
+2025-10-29 02:05:38,654 - app - INFO - ✅ Redis cache initialized successfully
+2025-10-29 02:05:38,748 - app - INFO - ✅ Database connection verified
+2025-10-29 02:05:38,748 - app - INFO - ✅ API startup complete - Ready to accept requests
+2025-10-29 02:05:46,735 - app - INFO - 🔴 Shutting down API gracefully...
+2025-10-29 02:05:46,740 - app - INFO - ✅ Database connections closed
+2025-10-29 02:17:56,728 - __main__ - INFO - ======================================================================
+2025-10-29 02:17:56,730 - __main__ - INFO - 🚀 YTHEYS STARTUP NETWORK API - GTE-LARGE EDITION
+2025-10-29 02:17:56,730 - __main__ - INFO - ======================================================================
+2025-10-29 02:17:56,730 - __main__ - INFO - ✅ Database: startup_db
+2025-10-29 02:17:56,730 - __main__ - INFO - ✅ Total columns detected: 24
+2025-10-29 02:17:56,730 - __main__ - INFO - ✅ Views tracking: ENABLED
+2025-10-29 02:17:56,730 - __main__ - INFO - ✅ Verified flag: ENABLED
+2025-10-29 02:17:56,730 - __main__ - INFO - ✅ AI Embeddings: READY ⚡
+2025-10-29 02:17:56,730 - __main__ - INFO - ✅ Compute device: MPS
+2025-10-29 02:17:56,730 - __main__ - INFO - ======================================================================
+2025-10-29 02:17:56,730 - __main__ - INFO - Loading GTE-Large model (first load may take 1-2 minutes)...
+2025-10-29 02:17:56,731 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: thenlper/gte-large
+2025-10-29 02:19:24,001 - __main__ - INFO - ✅ Sentence Transformer model loaded: thenlper/gte-large
+2025-10-29 02:19:24,006 - __main__ - INFO -    - Embedding dimension: 1024 (higher quality)
+2025-10-29 02:19:24,007 - __main__ - INFO -    - Device: mps
+2025-10-29 02:19:24,007 - __main__ - INFO -    - Normalization: Enabled
+2025-10-29 02:19:24,313 - __main__ - INFO - ======================================================================
+2025-10-29 02:19:24,313 - __main__ - INFO - 🚀 Starting Ytheys API with GTE-Large Embeddings...
+2025-10-29 02:19:24,313 - __main__ - INFO - ======================================================================
+2025-10-29 02:19:30,075 - __mp_main__ - INFO - ======================================================================
+2025-10-29 02:19:30,075 - __mp_main__ - INFO - 🚀 YTHEYS STARTUP NETWORK API - GTE-LARGE EDITION
+2025-10-29 02:19:30,075 - __mp_main__ - INFO - ======================================================================
+2025-10-29 02:19:30,075 - __mp_main__ - INFO - ✅ Database: startup_db
+2025-10-29 02:19:30,075 - __mp_main__ - INFO - ✅ Total columns detected: 24
+2025-10-29 02:19:30,075 - __mp_main__ - INFO - ✅ Views tracking: ENABLED
+2025-10-29 02:19:30,075 - __mp_main__ - INFO - ✅ Verified flag: ENABLED
+2025-10-29 02:19:30,075 - __mp_main__ - INFO - ✅ AI Embeddings: READY ⚡
+2025-10-29 02:19:30,076 - __mp_main__ - INFO - ✅ Compute device: MPS
+2025-10-29 02:19:30,076 - __mp_main__ - INFO - ======================================================================
+2025-10-29 02:19:30,076 - __mp_main__ - INFO - Loading GTE-Large model (first load may take 1-2 minutes)...
+2025-10-29 02:19:30,076 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: thenlper/gte-large
+2025-10-29 02:20:57,610 - __mp_main__ - INFO - ✅ Sentence Transformer model loaded: thenlper/gte-large
+2025-10-29 02:20:57,625 - __mp_main__ - INFO -    - Embedding dimension: 1024 (higher quality)
+2025-10-29 02:20:57,625 - __mp_main__ - INFO -    - Device: mps
+2025-10-29 02:20:57,625 - __mp_main__ - INFO -    - Normalization: Enabled
+2025-10-29 02:20:58,318 - app - INFO - ======================================================================
+2025-10-29 02:20:58,318 - app - INFO - 🚀 YTHEYS STARTUP NETWORK API - GTE-LARGE EDITION
+2025-10-29 02:20:58,318 - app - INFO - ======================================================================
+2025-10-29 02:20:58,318 - app - INFO - ✅ Database: startup_db
+2025-10-29 02:20:58,318 - app - INFO - ✅ Total columns detected: 24
+2025-10-29 02:20:58,318 - app - INFO - ✅ Views tracking: ENABLED
+2025-10-29 02:20:58,318 - app - INFO - ✅ Verified flag: ENABLED
+2025-10-29 02:20:58,318 - app - INFO - ✅ AI Embeddings: READY ⚡
+2025-10-29 02:20:58,318 - app - INFO - ✅ Compute device: MPS
+2025-10-29 02:20:58,318 - app - INFO - ======================================================================
+2025-10-29 02:20:58,318 - app - INFO - Loading GTE-Large model (first load may take 1-2 minutes)...
+2025-10-29 02:20:58,321 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: thenlper/gte-large
+2025-10-29 02:21:08,426 - app - INFO - ✅ Sentence Transformer model loaded: thenlper/gte-large
+2025-10-29 02:21:08,514 - app - INFO -    - Embedding dimension: 1024 (higher quality)
+2025-10-29 02:21:08,520 - app - INFO -    - Device: mps
+2025-10-29 02:21:08,520 - app - INFO -    - Normalization: Enabled
+2025-10-29 02:21:08,617 - app - INFO - ✅ Redis cache initialized successfully
+2025-10-29 02:21:08,689 - app - INFO - ✅ Database connection verified
+2025-10-29 02:21:08,689 - app - INFO - ✅ API startup complete - Ready to accept requests
+2025-10-29 02:23:00,494 - app - INFO - GET /health - Status: 200 - Time: 200.39ms
+2025-10-29 02:23:21,046 - app - INFO - GET /health - Status: 200 - Time: 102.07ms
+2025-10-29 02:23:37,098 - app - INFO - OPTIONS /recommendations/semantic - Status: 200 - Time: 1.59ms
+2025-10-29 02:23:37,125 - app - INFO - 🔍 GTE-Large Search initiated: 'i need a website for my restaurant under budget'
+2025-10-29 02:23:47,116 - app - INFO - 📊 Comparing with 250 organizations using GTE-Large...
+2025-10-29 02:23:47,237 - app - INFO - ✅ GTE-Large search complete: 10 matches in 10111.13ms
+2025-10-29 02:23:47,241 - app - INFO - POST /recommendations/semantic - Status: 200 - Time: 10138.12ms
+2025-10-29 02:29:39,869 - app - INFO - GET /health - Status: 200 - Time: 105.70ms
+2025-10-29 02:29:42,387 - app - INFO - 🔍 GTE-Large Search initiated: 'i need a website for my restaurant under budget'
+2025-10-29 02:29:50,608 - app - INFO - 📊 Comparing with 250 organizations using GTE-Large...
+2025-10-29 02:29:50,734 - app - INFO - ✅ GTE-Large search complete: 10 matches in 8345.42ms
+2025-10-29 02:29:50,741 - app - INFO - POST /recommendations/semantic - Status: 200 - Time: 8403.23ms
+2025-10-29 05:17:57,083 - __main__ - INFO - ======================================================================
+2025-10-29 05:17:57,083 - __main__ - INFO - 🚀 YTHEYS STARTUP NETWORK API - GTE-LARGE EDITION
+2025-10-29 05:17:57,083 - __main__ - INFO - ======================================================================
+2025-10-29 05:17:57,083 - __main__ - INFO - ✅ Database: startup_db
+2025-10-29 05:17:57,083 - __main__ - INFO - ✅ Total columns detected: 24
+2025-10-29 05:17:57,083 - __main__ - INFO - ✅ Views tracking: ENABLED
+2025-10-29 05:17:57,083 - __main__ - INFO - ✅ Verified flag: ENABLED
+2025-10-29 05:17:57,083 - __main__ - INFO - ✅ AI Embeddings: READY ⚡
+2025-10-29 05:17:57,083 - __main__ - INFO - ✅ Compute device: MPS
+2025-10-29 05:17:57,083 - __main__ - INFO - ======================================================================
+2025-10-29 05:17:57,084 - __main__ - INFO - Loading GTE-Large model (first load may take 1-2 minutes)...
+2025-10-29 05:17:57,084 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: thenlper/gte-large
+2025-10-29 05:18:03,575 - __main__ - INFO - ✅ Sentence Transformer model loaded: thenlper/gte-large
+2025-10-29 05:18:03,576 - __main__ - INFO -    - Embedding dimension: 1024 (higher quality)
+2025-10-29 05:18:03,576 - __main__ - INFO -    - Device: mps
+2025-10-29 05:18:03,576 - __main__ - INFO -    - Normalization: Enabled
+2025-10-29 05:18:03,611 - __main__ - INFO - ======================================================================
+2025-10-29 05:18:03,611 - __main__ - INFO - 🚀 Starting Ytheys API with GTE-Large Embeddings...
+2025-10-29 05:18:03,611 - __main__ - INFO - ======================================================================
+2025-10-29 05:18:07,927 - __mp_main__ - INFO - ======================================================================
+2025-10-29 05:18:07,928 - __mp_main__ - INFO - 🚀 YTHEYS STARTUP NETWORK API - GTE-LARGE EDITION
+2025-10-29 05:18:07,928 - __mp_main__ - INFO - ======================================================================
+2025-10-29 05:18:07,928 - __mp_main__ - INFO - ✅ Database: startup_db
+2025-10-29 05:18:07,928 - __mp_main__ - INFO - ✅ Total columns detected: 24
+2025-10-29 05:18:07,928 - __mp_main__ - INFO - ✅ Views tracking: ENABLED
+2025-10-29 05:18:07,928 - __mp_main__ - INFO - ✅ Verified flag: ENABLED
+2025-10-29 05:18:07,928 - __mp_main__ - INFO - ✅ AI Embeddings: READY ⚡
+2025-10-29 05:18:07,928 - __mp_main__ - INFO - ✅ Compute device: MPS
+2025-10-29 05:18:07,928 - __mp_main__ - INFO - ======================================================================
+2025-10-29 05:18:07,928 - __mp_main__ - INFO - Loading GTE-Large model (first load may take 1-2 minutes)...
+2025-10-29 05:18:07,929 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: thenlper/gte-large
+2025-10-29 05:18:13,716 - __mp_main__ - INFO - ✅ Sentence Transformer model loaded: thenlper/gte-large
+2025-10-29 05:18:13,717 - __mp_main__ - INFO -    - Embedding dimension: 1024 (higher quality)
+2025-10-29 05:18:13,717 - __mp_main__ - INFO -    - Device: mps
+2025-10-29 05:18:13,717 - __mp_main__ - INFO -    - Normalization: Enabled
+2025-10-29 05:18:13,819 - app - INFO - ======================================================================
+2025-10-29 05:18:13,819 - app - INFO - 🚀 YTHEYS STARTUP NETWORK API - GTE-LARGE EDITION
+2025-10-29 05:18:13,819 - app - INFO - ======================================================================
+2025-10-29 05:18:13,819 - app - INFO - ✅ Database: startup_db
+2025-10-29 05:18:13,819 - app - INFO - ✅ Total columns detected: 24
+2025-10-29 05:18:13,819 - app - INFO - ✅ Views tracking: ENABLED
+2025-10-29 05:18:13,820 - app - INFO - ✅ Verified flag: ENABLED
+2025-10-29 05:18:13,820 - app - INFO - ✅ AI Embeddings: READY ⚡
+2025-10-29 05:18:13,820 - app - INFO - ✅ Compute device: MPS
+2025-10-29 05:18:13,820 - app - INFO - ======================================================================
+2025-10-29 05:18:13,820 - app - INFO - Loading GTE-Large model (first load may take 1-2 minutes)...
+2025-10-29 05:18:13,820 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: thenlper/gte-large
+2025-10-29 05:18:20,871 - app - INFO - ✅ Sentence Transformer model loaded: thenlper/gte-large
+2025-10-29 05:18:20,873 - app - INFO -    - Embedding dimension: 1024 (higher quality)
+2025-10-29 05:18:20,873 - app - INFO -    - Device: mps
+2025-10-29 05:18:20,873 - app - INFO -    - Normalization: Enabled
+2025-10-29 05:18:20,888 - app - INFO - ✅ Redis cache initialized successfully
+2025-10-29 05:18:20,913 - app - INFO - ✅ Database connection verified
+2025-10-29 05:18:20,913 - app - INFO - ✅ API startup complete - Ready to accept requests
+2025-10-29 05:25:04,750 - app - INFO - Returned 6 trending organizations
+2025-10-29 05:25:04,788 - app - INFO - GET /trending - Status: 200 - Time: 171.16ms
+2025-10-29 05:25:12,152 - app - INFO - Organization Z1065 viewed
+2025-10-29 05:25:12,159 - app - INFO - GET /organization/Z1065 - Status: 200 - Time: 45.67ms
+2025-10-29 05:25:12,167 - app - INFO - Organization Z1065 viewed
+2025-10-29 05:25:12,173 - app - INFO - GET /organization/Z1065 - Status: 200 - Time: 14.79ms
+2025-10-29 05:50:44,563 - app - INFO - GET /organization/ollama/ollama - Status: 404 - Time: 42.36ms
+2025-10-29 05:50:44,582 - app - INFO - GET /organization/ollama/ollama - Status: 404 - Time: 63.02ms
+2025-10-29 05:50:48,524 - app - INFO - GET /health - Status: 200 - Time: 74.17ms
+2025-10-29 05:50:48,535 - app - INFO - GET /health - Status: 200 - Time: 76.12ms
+2025-10-29 05:50:55,364 - app - INFO - GET /organization/ollama/ollama - Status: 404 - Time: 2.64ms
+2025-10-29 05:50:55,368 - app - INFO - GET /organization/ollama/ollama - Status: 404 - Time: 0.50ms
+2025-10-29 05:51:27,132 - app - INFO - GET /organization/ollama/ollama - Status: 404 - Time: 5.28ms
+2025-10-29 05:51:27,133 - app - INFO - GET /organization/ollama/ollama - Status: 404 - Time: 1.91ms
+2025-10-29 05:52:10,418 - app - INFO - GET /organization/ollama/ollama - Status: 404 - Time: 3.66ms
+2025-10-29 05:53:07,867 - app - INFO - GET /health - Status: 200 - Time: 63.93ms
+2025-10-29 05:53:07,878 - app - INFO - GET /health - Status: 200 - Time: 75.67ms
+2025-10-29 05:53:11,512 - app - INFO - GET /health - Status: 200 - Time: 13.15ms
+2025-10-29 05:53:11,512 - app - INFO - GET /health - Status: 200 - Time: 12.21ms
+2025-10-29 05:53:12,037 - app - INFO - GET /organization/ollama/ollama - Status: 404 - Time: 0.90ms
+2025-10-29 05:53:12,038 - app - INFO - GET /organization/ollama/ollama - Status: 404 - Time: 0.83ms
+2025-10-29 05:59:18,193 - app - INFO - Returned 6 trending organizations
+2025-10-29 05:59:18,353 - app - INFO - GET /trending - Status: 200 - Time: 519.26ms
+2025-10-29 05:59:50,653 - app - INFO - Organization Z1065 viewed
+2025-10-29 05:59:50,661 - app - INFO - Organization Z1065 viewed
+2025-10-29 05:59:50,662 - app - INFO - GET /organization/Z1065 - Status: 200 - Time: 65.80ms
+2025-10-29 05:59:50,662 - app - INFO - GET /organization/Z1065 - Status: 200 - Time: 5.79ms
+2025-10-29 06:00:04,115 - app - INFO - Organization Z1065 viewed
+2025-10-29 06:00:04,131 - app - INFO - GET /organization/Z1065 - Status: 200 - Time: 42.45ms
+2025-10-29 06:01:28,635 - app - INFO - GET /health - Status: 200 - Time: 62.31ms
+2025-10-29 06:01:28,639 - app - INFO - GET /health - Status: 200 - Time: 65.72ms
+2025-10-29 06:05:14,864 - app - INFO - GET /organization/ollama/ollama - Status: 404 - Time: 3.05ms
+2025-10-29 06:05:14,870 - app - INFO - GET /organization/ollama/ollama - Status: 404 - Time: 8.84ms
+2025-10-29 06:05:17,789 - app - INFO - GET /health - Status: 200 - Time: 63.16ms
+2025-10-29 06:05:17,792 - app - INFO - GET /health - Status: 200 - Time: 71.03ms
